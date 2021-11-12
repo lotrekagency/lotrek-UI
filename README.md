@@ -6,17 +6,22 @@ Each block is responsive, tested and easy to customize to fit your projects.
 ## Table of contents
 
 [Getting started](#getting-started)
+
 [Prerequisities](#prerequisities)
+
 [How to contribute](#how-to-contribute)
+
 [Built with](#built-with)
+
 [Copyright and license](#copyright-and-license)
+
 [TODO](#todo)
 
 ### Getting started
 The Lotrek UI Kit has ready-to-use HTML blocks with some starter CSS (and JS when needed). 
 Each block is written as a component which can be found in the /src/component/ path.
 
-The demo page is fueled by ViteJS: all you need to do is
+The demo page is localted in the Demo.vue component file: all you need to do is
 
 `yarn install`
 
@@ -44,9 +49,8 @@ Once you're done with your work, submit a pull request.
 NuxtJS, Vue and some good old HTML, CSS and JS
 
 ### Copyright and license
-WIP
+lotrekagency/lotrek-UI is licensed under the MIT License
 
 ### TODO
-• Responsive (mobile->desktop)
 • Better demo page
 • Better readme
