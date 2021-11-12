@@ -115,8 +115,8 @@
 </template>
 
 <style lang="scss">
-@import './static/assets/styles/reset.scss';
-@import './static/assets/styles/main.scss';
+@import './styles/reset.scss';
+@import './styles/main.scss';
 
 
 body {
