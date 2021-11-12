@@ -1,0 +1,63 @@
+.showcase {
+  @include container;
+
+  &__inner {
+    @include grid;
+  }
+  &__collection {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+  &__item {
+    flex: 1;
+    min-width: 250px;
+    max-width: 25%;
+    margin: 1rem auto;
+    border: 1px solid var(--grey);
+
+    &__fig {
+      overflow: hidden;
+    }
+    &__img {
+      @include img;
+    }
+    &__btn {
+      @include btn;
+    }
+  }
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+
+    &--reverse {
+      flex-direction: row-reverse;
+    }
+
+    &__content {
+      flex: 1;
+      min-width: 250px;
+      max-width: 50%;
+      margin: 0 auto;
+      padding: 0.5rem 2rem;
+      text-align: center;
+
+      @media (min-width: 769px) {
+        text-align: left;
+      }
+    }
+    &__fig {
+      flex: 1;
+      min-width: 250px;
+      max-width: 50%;
+      margin: 1rem auto;
+      overflow: hidden;
+    }
+    &__img {
+      @include img;
+    }
+  }
+}
