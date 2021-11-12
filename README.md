@@ -22,7 +22,7 @@ Each block is responsive, tested and easy to customize to fit your projects.
 [TODO](#todo)
 
 ### Using lotrek UI
-To use this collection of micro-layouts simply copy the HTML code inside <template> in the /components/category/name-of-block.vue file, 
+To use this collection of micro-layouts simply copy the HTML code inside `<template>` in the /components/category/name-of-block.vue file, 
 and remember to add the lotrek-ui.css stylesheet in your project.
 
 ### Getting started
@@ -59,8 +59,8 @@ rollup.js to build the css dist file.
 
 ### How to contribute
 To start contributing make your own branch such as feature/myblock starting from master. 
-Then add blocks to the collection by making a vue component files in the /src/components/<category> folder. 
-Styling is written in SCSS with BEM and mobile-first, so keep naming as clean and faithful to the methodology as possible. All the blocks style files can be found in in the /styles/blocks/<category> path, so when adding a new block add a new SCSS file here and remember to import it via main.scss.
+Then add blocks to the collection by making a vue component files in the /components/`<category>` folder. 
+Styling is written in SCSS with BEM and mobile-first, so keep naming as clean and faithful to the methodology as possible. All the blocks style files can be found in in the /styles/blocks/`<category>` path, so when adding a new block add a new SCSS file here and remember to import it via main.scss.
 Once you're done with your work, submit a pull request.
 
 ### Built with
