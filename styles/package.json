@@ -1,0 +1,15 @@
+{
+  "name": "lotrek-ui-css",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "css": "rollup -c rollup.config.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "rollup-plugin-scss": "^3.0.0",
+    "sass": "^1.43.4"
+  }
+}

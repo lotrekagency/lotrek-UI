@@ -7,6 +7,8 @@ Each block is responsive, tested and easy to customize to fit your projects.
 
 [Getting started](#getting-started)
 
+[lotrek-ui.css](#lotrek-ui.css)
+
 [Prerequisities](#prerequisities)
 
 [How to contribute](#how-to-contribute)
@@ -35,18 +37,28 @@ If you wish to build for production, run:
 
 /dist/ will have the production files and assets.
 
+### lotrek-ui.css
+The CSS bundle file (lotrek-ui.css) to make the raw HTML blocks work is located at the /styles/build/ path.
+To build this file simply do the following:
+
+`cd styles`
+
+`yarn css`
+
 ### Prerequisities
 
-Node, either npm or yarn.
+Node, either npm or yarn. 
+
+rollup.js to build the css dist file.
 
 ### How to contribute
 To start contributing make your own branch such as feature/myblock starting from master. 
 Then add blocks to the collection by making a vue component files in the /src/components/<category> folder. 
-Styling is written in SCSS with BEM and mobile-first, so keep naming as clean and faithful to the methodology as possible. All the blocks style files can be found in in the /src/assets/styles/blocks/<category> path, so when adding a new block add a new SCSS file here and remember to import it via main.scss.
+Styling is written in SCSS with BEM and mobile-first, so keep naming as clean and faithful to the methodology as possible. All the blocks style files can be found in in the /styles/blocks/<category> path, so when adding a new block add a new SCSS file here and remember to import it via main.scss.
 Once you're done with your work, submit a pull request.
 
 ### Built with
-NuxtJS, Vue and some good old HTML, CSS and JS
+NuxtJS, Vue, rollup.js and some good old HTML, CSS and JS
 
 ### Copyright and license
 lotrekagency/lotrek-UI is licensed under the MIT License
