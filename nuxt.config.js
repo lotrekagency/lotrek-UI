@@ -1,6 +1,9 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  router: {
+    base: '/lotrek-UI/'
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
