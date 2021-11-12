@@ -3,6 +3,11 @@ Lotrek UI is a collection of ready-to-use UI components and micro layouts writte
 
 Each block is responsive, tested and easy to customize to fit your projects.
 
+To check the demo/docs page please visit:
+
+### https://lotrekagency.github.io/lotrek-UI/
+
+
 ## Table of contents
 
 [Using lotrek UI](#using-lotrek-ui)
