@@ -115,9 +115,7 @@
 </template>
 
 <style lang="scss">
-@import './styles/reset.scss';
 @import './styles/main.scss';
-
 
 body {
   font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
