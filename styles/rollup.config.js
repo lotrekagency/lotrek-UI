@@ -5,7 +5,7 @@ import autoprefixer from 'autoprefixer'
 export default {
   input: 'styles.js',
   output: {
-    file: 'build/bundle.js',
+    file: 'build/lotrek-ui.js',
     format: 'esm'
   },
   plugins: [
