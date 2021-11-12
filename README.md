@@ -5,6 +5,8 @@ Each block is responsive, tested and easy to customize to fit your projects.
 
 ## Table of contents
 
+[Using lotrek UI](#using-lotrek-ui)
+
 [Getting started](#getting-started)
 
 [lotrek-ui.css](#lotrek-ui.css)
@@ -19,9 +21,13 @@ Each block is responsive, tested and easy to customize to fit your projects.
 
 [TODO](#todo)
 
+### Using lotrek UI
+To use this collection of micro-layouts simply copy the HTML code inside <template> in the /components/category/name-of-block.vue file, 
+and remember to add the lotrek-ui.css stylesheet in your project.
+
 ### Getting started
 The Lotrek UI Kit has ready-to-use HTML blocks with some starter CSS (and JS when needed). 
-Each block is written as a component which can be found in the /src/component/ path.
+Each block is written as a component which can be found in the /components/ path.
 
 The demo page is localted in the Demo.vue component file: all you need to do is
 
