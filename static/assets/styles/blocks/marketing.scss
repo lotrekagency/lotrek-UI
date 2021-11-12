@@ -1,0 +1,114 @@
+
+.marketing {
+  @include container;
+
+  &__inner {
+    @include grid;
+
+    &--flex {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }
+  &__content {
+    max-width: clamp(300px,100vw,650px);
+    padding: 2rem 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  &__preform {
+    flex: 1;
+    min-width: 250px;
+    max-width: 50%;
+    padding: 1rem 0;
+    margin: 0 auto;
+    text-align: left;
+  }
+  &__form {
+    flex: 1;
+    min-width: 250px;
+    max-width: 45%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    margin: 0 auto;
+  }
+  &__input {
+    appearance: none;
+    display: inline-block;
+    border: 1px solid var(--black);
+    border-right: 0;
+    background: transparent;
+    text-decoration: none;
+    color: var(--black);
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+  }
+  &__btn {
+    @include btn;
+  }
+}
+
+.hero {
+  @include container;
+
+  &__inner {
+    @include grid;
+
+    &--minfill {
+      grid-template-rows: auto;
+      min-height: clamp(450px, 50vh, 600px);
+    }
+  }
+  &__content {
+    text-align: left;
+
+    @media (min-width: 769px) {
+      grid-column: 1/7;
+    }
+    &--full {
+      @media (min-width: 769px) {
+        grid-column: span 12;
+      }
+    }
+    &--focus {
+      text-align: center;
+      max-width: clamp(350px, 75vw, 750px);
+      min-height: clamp(450px, 50vh, 600px);
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  &__fig {
+    overflow: hidden;
+
+    @media (min-width: 769px) {
+      grid-column: 7/13;
+    }
+  }
+  &__img {
+    @include img;
+  }
+  &__btn {
+    @include btn;
+  }
+  &__background {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    margin: 0;
+
+    &__img {
+      @include img;
+      object-fit: cover;
+    }
+  }
+}
