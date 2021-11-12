@@ -1,2 +1,2 @@
-@import '~/styles/reset.scss';
-@import '~/styles/main.scss';
+// Needed for rollup to make a dist css file
+@import './main.scss';
