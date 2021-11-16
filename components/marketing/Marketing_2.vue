@@ -3,7 +3,7 @@
     <div class="marketing__inner marketing__inner--flex">
       <div class="marketing__preform">
         <h1>
-          <code>Marketing_2.vue</code> Marketing block n.2
+          Lorem, ipsum dolor.
         </h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores voluptates non aperiam asperiores quia consectetur.

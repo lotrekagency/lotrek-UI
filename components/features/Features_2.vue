@@ -3,7 +3,7 @@
     <div class="features__inner">
       <div class="features__intro features__intro--side">
         <h1 class="features__title">
-          <code>Features_2.vue</code> <br>Features block n.2
+          Lorem, ipsum dolor.
         </h1>
         <p class="features__text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur perferendis dolorem, fuga maxime labore numquam omnis.

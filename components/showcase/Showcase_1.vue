@@ -3,7 +3,7 @@
     <div class="showcase__inner">
       <div class="showcase__intro">
         <h1>
-          <code>Showcase_1.vue</code> Showcase block n.1
+          Lorem, ipsum.
         </h1>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, eveniet?

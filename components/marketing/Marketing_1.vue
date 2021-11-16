@@ -6,7 +6,7 @@
           Lorem, ipsum.
         </span>
         <h1>
-          <code>Marketing_1.vue</code> Marketing block n.1
+          Lorem ipsum dolor sit.
         </h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores voluptates non aperiam asperiores quia consectetur.

@@ -84,42 +84,72 @@
         
         <div class="core__categ" id="ccat-0">
           <div class="core__block">
+            <span class="core__block__title">
+              <code>Hero_1.vue</code> Hero block n.1
+            </span>
             <Hero_1 />
           </div>
           <div class="core__block">
+            <span class="core__block__title">
+              <code>Hero_2.vue</code> Hero block n.2
+            </span>
             <Hero_2 />
           </div>
           <div class="core__block">
+            <span class="core__block__title">
+              <code>Hero_3.vue</code> Hero block n.3
+            </span>
             <Hero_3 />
           </div>
         </div><!--/core__categ-->
 
         <div class="core__categ" id="ccat-1">
           <div class="core__block">
+            <span class="core__block__title">
+              <code>Features_1.vue</code> Features block n.1
+            </span>
             <Features_1 />
           </div>
           <div class="core__block">
+            <span class="core__block__title">
+              <code>Features_2.vue</code> Features block n.2
+            </span>
             <Features_2 />
           </div>
         </div><!--/core__categ-->
 
         <div class="core__categ" id="ccat-2">
           <div class="core__block">
+            <span class="core__block__title">
+              <code>Showcase_1.vue</code> Showcase block n.1
+            </span>
             <Showcase_1 />
           </div>
           <div class="core__block">
+            <span class="core__block__title">
+              <code>Showcase_2.vue</code> Showcase block n.2
+            </span>
             <Showcase_2 />
           </div>
           <div class="core__block">
+            <span class="core__block__title">
+              <code>Showcase_3.vue</code> Showcase block n.3
+            </span>
             <Showcase_3 />
           </div>
         </div><!--/core__categ-->
 
         <div class="core__categ" id="ccat-3">
           <div class="core__block">
+            <span class="core__block__title">
+              <code>Marketing_1.vue</code> Marketing block n.1
+            </span>
             <Marketing_1 />
           </div>
           <div class="core__block">
+            <span class="core__block__title">
+              <code>Marketing_2.vue</code> Marketing block n.2
+            </span>
             <Marketing_2 />
           </div>
         </div><!--/core__categ-->
@@ -127,7 +157,7 @@
         <div class="core__categ" id="ccat-4">
           <div class="core__block">
             <span class="core__block__title">
-              <code>Hero_1.vue</code> Hero block n.1
+              <code>Header_1.vue</code> Header block n.1
             </span>
             <Header_1 />
           </div>

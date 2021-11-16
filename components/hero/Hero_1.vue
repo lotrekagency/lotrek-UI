@@ -3,7 +3,7 @@
     <div class="hero__inner hero__inner--minfill">
       <div class="hero__content">
         <h1 class="hero__title">
-          <code>Hero_1.vue</code> Hero block n.1
+          Lorem, ipsum dolor.
         </h1>
         <p class="hero__text">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt porro non corrupti laborum, similique maxime voluptatum!

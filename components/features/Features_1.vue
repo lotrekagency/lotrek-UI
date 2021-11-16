@@ -3,7 +3,7 @@
     <div class="features__inner">
       <div class="features__intro">
         <h1 class="features__title">
-          <code>Features_1.vue</code> Features block n.1
+          Lorem ipsum dolor sit amet.
         </h1>
         <p class="features__text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur perferendis dolorem, fuga maxime labore numquam omnis.

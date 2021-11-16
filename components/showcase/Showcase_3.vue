@@ -4,7 +4,7 @@
 
       <div class="showcase__box">
         <h2>
-          <code>Showcase_3.vue</code> Showcase block n.3
+          Lorem.
         </h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
