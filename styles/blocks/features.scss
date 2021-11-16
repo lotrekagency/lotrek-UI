@@ -45,4 +45,50 @@
       grid-column: 6/13;
     }
   }
+  &__acc {
+
+    &__item {
+      margin-bottom: 1rem;
+      text-align: left;
+
+      &.active {
+        .features__acc__icon {
+          transform: rotate(180deg);
+        }
+        .features__acc__body {
+          pointer-events: initial;
+          opacity: 1;
+          transform: translateZ(0);
+          max-height: 100%;
+          transition: all ease-in .25s;
+          padding-bottom: 1rem;
+        }
+      }
+    }
+    &__head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+      cursor: pointer;
+      position: relative;
+      border-bottom: 1px solid var(--grey);
+    }
+    &__body {
+      pointer-events: none;
+      opacity: 0;
+      transform: translateY(-2rem);
+      max-height: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    &__icon {
+      transform-origin: center;
+      transition: all ease-in .25s;
+      width: 2rem;
+      max-width: 2rem;
+      min-width: 2rem;
+      flex: 0 0 2rem;
+    }
+  }
 }

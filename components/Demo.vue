@@ -37,6 +37,7 @@
           <div class="sider__categ__item__sub">
             <span class="sider__categ__bname">Features_1</span>
             <span class="sider__categ__bname">Features_2</span>
+            <span class="sider__categ__bname">Features_3</span>
           </div><!--/sider__categ__item__sub-->
         </div><!--/sider__categ__item-->
 
@@ -115,6 +116,12 @@
               <code>Features_2.vue</code> Features block n.2
             </span>
             <Features_2 />
+          </div>
+          <div class="core__block">
+            <span class="core__block__title">
+              <code>Features_3.vue</code> Features block n.3 - Accordion
+            </span>
+            <Features_3 />
           </div>
         </div><!--/core__categ-->
 
@@ -395,6 +402,7 @@ import Hero_3 from '~/components/hero/Hero_3.vue'
 
 import Features_1 from '~/components/features/Features_1.vue'
 import Features_2 from '~/components/features/Features_2.vue'
+import Features_3 from '~/components/features/Features_3.vue'
 
 import Showcase_1 from '~/components/showcase/Showcase_1.vue'
 import Showcase_2 from '~/components/showcase/Showcase_2.vue'
@@ -412,6 +420,7 @@ export default {
     Hero_3,
     Features_1,
     Features_2,
+    Features_3,
     Showcase_1,
     Showcase_2,
     Showcase_3,
