@@ -190,7 +190,7 @@ code {
   overflow-y: auto;
   z-index: 10;
   background: var(--white);
-  box-shadow: 4px 0px 4px 2px rgba(0,0,0,0.1);
+  box-shadow: 4px 0px 10px rgba(0,0,0, 0.1);
   transition: all ease-in .25s;
 
   @media (max-width: 768px) {
@@ -229,7 +229,7 @@ code {
       margin: 0.5rem 0;
       transition: all ease-in .25s;
       border-radius: 0.25rem;
-      box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.1);
+      box-shadow: -3px -3px 7px var(--white), 4px 4px 10px rgba(0,0,0, 0.1);
 
       &.active {
         .sider__categ__item__head {
@@ -248,10 +248,10 @@ code {
         justify-content: space-between;
         align-items: center;
         cursor: pointer;
-        padding: 0.5rem;
+        padding: 0.75rem 1rem;
       }
       &__sub {
-        padding: 0.75rem 1rem 0.5rem;
+        padding: 0.75rem 1rem;
         flex-direction: column;
         align-items: baseline;
         border-top: 1px solid var(--grey);
@@ -263,7 +263,7 @@ code {
     }
     &__bname {
       display: inline-block;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.75rem;
       padding-left: 1rem;
       position: relative;
       cursor: pointer;
@@ -305,7 +305,7 @@ code {
   }
   &__block {
     margin-bottom: 2rem;
-    box-shadow: 0px 4px 4px 2px rgba(0,0,0,0.1);
+    box-shadow: 4px 4px 10px rgba(0,0,0, 0.1);
   }
   &__categ {
     display: none;
