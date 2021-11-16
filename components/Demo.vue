@@ -65,6 +65,17 @@
           </div><!--/sider__categ__item__sub-->
         </div><!--/sider__categ__item-->
 
+        <!-- Header blocks -->
+        <div class="sider__categ__item" id="bcat-4">
+          <div class="sider__categ__item__head">
+            <span class="sider__categ__title">Header blocks</span>
+            <span class="sider__categ__btn">+</span>
+          </div><!--/sider__categ__item__head-->
+          <div class="sider__categ__item__sub">
+            <span class="sider__categ__bname">Header_1</span>
+          </div><!--/sider__categ__item__sub-->
+        </div><!--/sider__categ__item-->
+
       </div><!--/sider__categ-->
     </div><!--/sider-->
 
@@ -110,6 +121,12 @@
           </div>
           <div class="core__block">
             <Marketing_2 />
+          </div>
+        </div><!--/core__categ-->
+
+        <div class="core__categ" id="ccat-4">
+          <div class="core__block">
+            <Header_1 />
           </div>
         </div><!--/core__categ-->
 
@@ -337,6 +354,8 @@ import Showcase_3 from '~/components/showcase/Showcase_3.vue'
 import Marketing_1 from '~/components/marketing/Marketing_1.vue'
 import Marketing_2 from '~/components/marketing/Marketing_2.vue'
 
+import Header_1 from '~/components/header/header_1.vue'
+
 export default {
   components: {
     Hero_1,
@@ -348,7 +367,8 @@ export default {
     Showcase_2,
     Showcase_3,
     Marketing_1,
-    Marketing_2
+    Marketing_2,
+    Header_1
   },
   mounted: function() {
 
