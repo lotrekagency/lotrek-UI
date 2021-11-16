@@ -1,3 +1,99 @@
 .headr {
-  
+  @include container;
+  position: relative;
+  overflow: initial;
+
+  &__inner {
+    @include grid;
+
+    row-gap: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  &__logo {
+    grid-column: span 2;
+    grid-row: 1;
+    overflow: hidden;
+    text-align: left;
+
+    &__img {
+      @include img;
+      max-height: 3rem;
+      width: auto;
+    }
+  }
+  &__hmb {
+    grid-column: 4/5;
+    grid-row: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border: 1px solid var(--grey);
+
+    &.active {
+      .headr__hmb__line:nth-child(1) {
+        transform: translateY(calc(0.5rem + 1px)) rotate(45deg);
+      }
+      .headr__hmb__line:nth-child(2) {
+        transform: scale(0);
+      }
+      .headr__hmb__line:nth-child(3) {
+        transform: translateY(calc(-0.5rem - 1px)) rotate(-45deg);
+      }
+    }
+    &__line {
+      width: 2rem;
+      height: 1px;
+      background-color: var(--black);
+      margin-bottom: 0.5rem;
+      transition: all ease-in .25s;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+  &__core {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    border: 1px solid var(--grey);
+
+    pointer-events: none;
+    opacity: 0;
+    transition: all ease-in .25s;
+
+    &.active {
+      pointer-events: initial;
+      opacity: 1;
+      z-index: 10;
+      
+      .headr__core__link {
+        opacity: 1;
+        transition: all ease-in .25s;
+      }
+    }
+
+    &__link {
+      opacity: 0;
+      transition: none;
+      margin: 1rem 0 0;
+
+      &:first-child {
+        margin-top: 2rem;
+      }
+      &:last-of-type {
+        margin-bottom: 2rem;
+      }
+    }
+  }
 }
