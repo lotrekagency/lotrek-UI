@@ -2,9 +2,9 @@
   <div class="marketing">
     <div class="marketing__inner">
       <div class="marketing__content">
-        <h5>
+        <span>
           Lorem, ipsum.
-        </h5>
+        </span>
         <h1>
           <code>Marketing_1.vue</code> Marketing block n.1
         </h1>
