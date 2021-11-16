@@ -126,6 +126,9 @@
 
         <div class="core__categ" id="ccat-4">
           <div class="core__block">
+            <span class="core__block__title">
+              <code>Hero_1.vue</code> Hero block n.1
+            </span>
             <Header_1 />
           </div>
         </div><!--/core__categ-->
@@ -325,8 +328,24 @@ code {
     padding: 2rem 2rem 4rem;
   }
   &__block {
-    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
     box-shadow: 4px 4px 10px rgba(0,0,0, 0.1);
+    position: relative;
+
+    &__title {
+      display: inline-block;
+      text-align: left;
+      position: absolute;
+      bottom: 100%;
+      left: 0%;
+      margin-block: 0.25rem;
+
+      code {
+        vertical-align: initial;
+        font-size: initial;
+      }
+    }
   }
   &__categ {
     display: none;
