@@ -16,6 +16,10 @@
     overflow: hidden;
     text-align: left;
 
+    @media (min-width: 769px) {
+
+    }
+
     &__img {
       @include img;
       max-height: 3rem;
@@ -32,6 +36,10 @@
     justify-content: center;
     height: 100%;
     border: 1px solid var(--grey);
+
+    @media (min-width: 769px) {
+      display: none;
+    }
 
     &.active {
       .headr__hmb__line:nth-child(1) {
@@ -72,6 +80,17 @@
     opacity: 0;
     transition: all ease-in .25s;
 
+    @media (min-width: 769px) {
+      pointer-events: initial;
+      opacity: 1;
+      position: static;
+      width: auto;
+      flex-direction: row;
+      border: 0;
+      grid-column: span 10;
+      justify-content: flex-end;
+    }
+
     &.active {
       pointer-events: initial;
       opacity: 1;
@@ -88,11 +107,22 @@
       transition: none;
       margin: 1rem 0 0;
 
+      @media (min-width: 769px) {
+        opacity: 1;
+        margin: 0 1rem 0 0;
+      }
+
       &:first-child {
         margin-top: 2rem;
+        @media (min-width: 769px) {
+          margin-top: 0;
+        }
       }
       &:last-of-type {
         margin-bottom: 2rem;
+        @media (min-width: 769px) {
+          margin-bottom: 0;
+        }
       }
     }
   }
