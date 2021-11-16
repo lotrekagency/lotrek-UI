@@ -49,6 +49,7 @@
           <div class="sider__categ__item__sub">
             <span class="sider__categ__bname">Showcase_1</span>
             <span class="sider__categ__bname">Showcase_2</span>
+            <span class="sider__categ__bname">Showcase_3</span>
           </div><!--/sider__categ__item__sub-->
         </div><!--/sider__categ__item-->
 
@@ -97,6 +98,9 @@
           </div>
           <div class="core__block">
             <Showcase_2 />
+          </div>
+          <div class="core__block">
+            <Showcase_3 />
           </div>
         </div><!--/core__categ-->
 
@@ -328,6 +332,7 @@ import Features_2 from '~/components/features/Features_2.vue'
 
 import Showcase_1 from '~/components/showcase/Showcase_1.vue'
 import Showcase_2 from '~/components/showcase/Showcase_2.vue'
+import Showcase_3 from '~/components/showcase/Showcase_3.vue'
 
 import Marketing_1 from '~/components/marketing/Marketing_1.vue'
 import Marketing_2 from '~/components/marketing/Marketing_2.vue'
@@ -341,6 +346,7 @@ export default {
     Features_2,
     Showcase_1,
     Showcase_2,
+    Showcase_3,
     Marketing_1,
     Marketing_2
   },
