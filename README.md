@@ -28,7 +28,7 @@ To check the demo/docs page please visit:
 
 ### Using lotrek UI
 To use this collection of micro-layouts simply copy the HTML code inside `<template>` in the /components/category/name-of-block.vue file, 
-and remember to add the lotrek-ui.css stylesheet in your project.
+and remember to add the lotrek-ui.css stylesheet in your project, which is a very small CSS file (less than 3kb when compressed with GZIP).
 
 ### Getting started
 The Lotrek UI Kit has ready-to-use HTML blocks with some starter CSS (and JS when needed). 
