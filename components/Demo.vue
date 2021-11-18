@@ -245,8 +245,8 @@ code {
   padding: 1rem;
   top: 0%;
   left: 0%;
-  width: clamp(300px,20vw,500px);
-  flex: 0 0 clamp(300px,20vw,500px);
+  width: clamp(200px,16.5vw,300px);
+  flex: 0 0 clamp(200px,16.5vw,300px);
   height: calc(100vh - 2rem);
   overflow-y: auto;
   z-index: 10;
