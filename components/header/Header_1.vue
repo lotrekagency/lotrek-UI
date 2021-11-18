@@ -23,7 +23,7 @@
   </div><!--/headr-->
 </template>
 
-<script scoped>
+<script>
 export default {
   mounted: function() {
 

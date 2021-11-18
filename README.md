@@ -69,7 +69,8 @@ Styling is written in SCSS with BEM and mobile-first, so keep naming as clean an
 Once you're done with your work, submit a pull request.
 
 ### Built with
-NuxtJS, Vue, rollup.js and some good old HTML, CSS and JS
+NuxtJS, Vue, rollup.js and some good old HTML, CSS and JS.
+Resetting CSS with normalize.css.
 
 ### Copyright and license
 lotrekagency/lotrek-UI is licensed under the MIT License

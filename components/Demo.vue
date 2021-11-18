@@ -11,6 +11,11 @@
           Lotrek UI 
         </h1>
         <h2 class="sider__head__claim">A collection of ready-to-use  UI components written in HTML & CSS</h2>
+        <p class="sider__head__text">
+          <a href="https://github.com/lotrekagency/lotrek-UI" target="_blank">
+            github.com/lotrekagency/lotrek-UI
+          </a>
+        </p>
       </div><!--/sider__head-->
 
       <div class="sider__categ">
@@ -258,7 +263,7 @@ code {
   overflow-y: auto;
   z-index: 10;
   background: var(--white);
-  box-shadow: 4px 0px 10px rgba(0,0,0, 0.1);
+  box-shadow: 2px 0px 4px rgba(0,0,0, 0.1);
   transition: all ease-in .25s;
 
   @media (max-width: 768px) {
@@ -285,7 +290,14 @@ code {
       display: block;
       margin: 0 0 1rem;
       font-size: 0.9rem;
-      font-weight: 500;
+      font-weight: 400;
+      line-height: 1;
+      opacity: 0.8;
+    }
+    &__text {
+      margin: 0 0 1rem;
+      font-size: 0.75rem;
+      font-weight: 400;
       line-height: 1;
       opacity: 0.8;
     }
@@ -297,7 +309,7 @@ code {
       margin: 0.5rem 0;
       transition: all ease-in .25s;
       border-radius: 0.25rem;
-      box-shadow: -3px -3px 7px var(--white), 4px 4px 10px rgba(0,0,0, 0.1);
+      box-shadow: -3px -3px 7px var(--white), 2px 2px 4px rgba(0,0,0, 0.1);
 
       &.active {
         .sider__categ__item__head {
@@ -374,7 +386,7 @@ code {
   &__block {
     margin-top: 2rem;
     margin-bottom: 4rem;
-    box-shadow: 4px 4px 10px rgba(0,0,0, 0.1);
+    box-shadow: 2px 2px 4px rgba(0,0,0, 0.1);
     position: relative;
 
     &__title {
