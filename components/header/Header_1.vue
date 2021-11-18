@@ -1,5 +1,5 @@
 <template>
-  <div class="headr">
+  <div class="headr" id="head-simple">
     <div class="headr__inner">
 
       <a href="" class="headr__logo">
@@ -23,15 +23,17 @@
   </div><!--/headr-->
 </template>
 
-<script>
+<script scoped>
 export default {
   mounted: function() {
-    //Copypaste this code
 
-    document.querySelector(".headr__hmb").addEventListener("click", function(e) {
+    //Copypaste this code
+    //Hamburger clicking - open & close dropdown menu
+    var context = document.querySelector("#head-simple");
+    context.querySelector(".headr__hmb").addEventListener("click", function(e) {
       e.preventDefault();
-      this.classList.toggle("active")
-      document.querySelector(".headr__core").classList.toggle("active")
+      this.classList.toggle("active");
+      context.querySelector(".headr__core").classList.toggle("active");
     })
     
   }

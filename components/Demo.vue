@@ -74,6 +74,7 @@
           </div><!--/sider__categ__item__head-->
           <div class="sider__categ__item__sub">
             <span class="sider__categ__bname">Header_1</span>
+            <span class="sider__categ__bname">Header_2</span>
           </div><!--/sider__categ__item__sub-->
         </div><!--/sider__categ__item-->
 
@@ -164,9 +165,15 @@
         <div class="core__categ" id="ccat-4">
           <div class="core__block">
             <span class="core__block__title">
-              <code>Header_1.vue</code> Header block n.1
+              <code>Header_1.vue</code> Header block n.1 - simple header
             </span>
             <Header_1 />
+          </div>
+          <div class="core__block">
+            <span class="core__block__title">
+              <code>Header_2.vue</code> Header block n.2 - multiple levels header with megamenu
+            </span>
+            <Header_2 />
           </div>
         </div><!--/core__categ-->
 
@@ -396,22 +403,23 @@ code {
 
 <script>
 
-import Hero_1 from '~/components/hero/Hero_1.vue'
-import Hero_2 from '~/components/hero/Hero_2.vue'
-import Hero_3 from '~/components/hero/Hero_3.vue'
+import Hero_1 from '~/components/hero/Hero_1.vue';
+import Hero_2 from '~/components/hero/Hero_2.vue';
+import Hero_3 from '~/components/hero/Hero_3.vue';
 
-import Features_1 from '~/components/features/Features_1.vue'
-import Features_2 from '~/components/features/Features_2.vue'
-import Features_3 from '~/components/features/Features_3.vue'
+import Features_1 from '~/components/features/Features_1.vue';
+import Features_2 from '~/components/features/Features_2.vue';
+import Features_3 from '~/components/features/Features_3.vue';
 
-import Showcase_1 from '~/components/showcase/Showcase_1.vue'
-import Showcase_2 from '~/components/showcase/Showcase_2.vue'
-import Showcase_3 from '~/components/showcase/Showcase_3.vue'
+import Showcase_1 from '~/components/showcase/Showcase_1.vue';
+import Showcase_2 from '~/components/showcase/Showcase_2.vue';
+import Showcase_3 from '~/components/showcase/Showcase_3.vue';
 
-import Marketing_1 from '~/components/marketing/Marketing_1.vue'
-import Marketing_2 from '~/components/marketing/Marketing_2.vue'
+import Marketing_1 from '~/components/marketing/Marketing_1.vue';
+import Marketing_2 from '~/components/marketing/Marketing_2.vue';
 
-import Header_1 from '~/components/header/header_1.vue'
+import Header_1 from '~/components/header/header_1.vue';
+import Header_2 from '~/components/header/header_2.vue';
 
 export default {
   components: {
@@ -426,7 +434,8 @@ export default {
     Showcase_3,
     Marketing_1,
     Marketing_2,
-    Header_1
+    Header_1,
+    Header_2
   },
   mounted: function() {
 
