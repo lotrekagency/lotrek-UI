@@ -22,9 +22,9 @@
             <span class="sider__categ__btn">+</span>
           </div><!--/sider__categ__item__head-->
           <div class="sider__categ__item__sub">
-            <span class="sider__categ__bname">Hero_1</span>
-            <span class="sider__categ__bname">Hero_2</span>
-            <span class="sider__categ__bname">Hero_3</span>
+            <span class="sider__categ__bname">Hero n.1</span>
+            <span class="sider__categ__bname">Hero n.2</span>
+            <span class="sider__categ__bname">Hero n.3</span>
           </div><!--/sider__categ__item__sub-->
         </div><!--/sider__categ__item-->
 
@@ -35,9 +35,9 @@
             <span class="sider__categ__btn">+</span>
           </div><!--/sider__categ__item__head-->
           <div class="sider__categ__item__sub">
-            <span class="sider__categ__bname">Features_1</span>
-            <span class="sider__categ__bname">Features_2</span>
-            <span class="sider__categ__bname">Features_3</span>
+            <span class="sider__categ__bname">Features n.1</span>
+            <span class="sider__categ__bname">Features n.2</span>
+            <span class="sider__categ__bname">Features n.3</span>
           </div><!--/sider__categ__item__sub-->
         </div><!--/sider__categ__item-->
 
@@ -48,9 +48,9 @@
             <span class="sider__categ__btn">+</span>
           </div><!--/sider__categ__item__head-->
           <div class="sider__categ__item__sub">
-            <span class="sider__categ__bname">Showcase_1</span>
-            <span class="sider__categ__bname">Showcase_2</span>
-            <span class="sider__categ__bname">Showcase_3</span>
+            <span class="sider__categ__bname">Showcase n.1</span>
+            <span class="sider__categ__bname">Showcase n.2</span>
+            <span class="sider__categ__bname">Showcase n.3</span>
           </div><!--/sider__categ__item__sub-->
         </div><!--/sider__categ__item-->
 
@@ -61,8 +61,8 @@
             <span class="sider__categ__btn">+</span>
           </div><!--/sider__categ__item__head-->
           <div class="sider__categ__item__sub">
-            <span class="sider__categ__bname">Marketing_1</span>
-            <span class="sider__categ__bname">Marketing_2</span>
+            <span class="sider__categ__bname">Marketing n.1</span>
+            <span class="sider__categ__bname">Marketing n.2</span>
           </div><!--/sider__categ__item__sub-->
         </div><!--/sider__categ__item-->
 
@@ -73,8 +73,8 @@
             <span class="sider__categ__btn">+</span>
           </div><!--/sider__categ__item__head-->
           <div class="sider__categ__item__sub">
-            <span class="sider__categ__bname">Header_1</span>
-            <span class="sider__categ__bname">Header_2</span>
+            <span class="sider__categ__bname">Header n.1</span>
+            <span class="sider__categ__bname">Header n.2</span>
           </div><!--/sider__categ__item__sub-->
         </div><!--/sider__categ__item-->
 
@@ -418,8 +418,8 @@ import Showcase_3 from '~/components/showcase/Showcase_3.vue';
 import Marketing_1 from '~/components/marketing/Marketing_1.vue';
 import Marketing_2 from '~/components/marketing/Marketing_2.vue';
 
-import Header_1 from '~/components/header/header_1.vue';
-import Header_2 from '~/components/header/header_2.vue';
+import Header_1 from '~/components/header/Header_1.vue';
+import Header_2 from '~/components/header/Header_2.vue';
 
 export default {
   components: {
