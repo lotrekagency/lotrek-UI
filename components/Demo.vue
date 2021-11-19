@@ -12,7 +12,10 @@
         </h1>
         <h2 class="sider__head__claim">A collection of ready-to-use  UI components written in HTML & CSS</h2>
         <p class="sider__head__text">
-          <a href="https://github.com/lotrekagency/lotrek-UI" target="_blank">
+          <a href="https://github.com/lotrekagency/lotrek-UI" target="_blank" class="sider__head__link">
+            <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="githubicon">
+              <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+            </svg>
             github.com/lotrekagency/lotrek-UI
           </a>
         </p>
@@ -257,8 +260,8 @@ code {
   padding: 1rem;
   top: 0%;
   left: 0%;
-  width: clamp(200px,16.5vw,300px);
-  flex: 0 0 clamp(200px,16.5vw,300px);
+  width: clamp(225px,16.5vw,300px);
+  flex: 0 0 clamp(225px,16.5vw,300px);
   height: calc(100vh - 2rem);
   overflow-y: auto;
   z-index: 10;
@@ -301,25 +304,50 @@ code {
       line-height: 1;
       opacity: 0.8;
     }
+    &__link {
+      background: var(--black);
+      color: var(--white);
+      align-items: center;
+      justify-content: flex-start;
+      line-height: 1;
+      display: inline-flex;
+      border-radius: 0.25rem;
+      padding: 0.25rem;
+
+      svg {
+        filter: invert(1);
+        margin: 0 0.25rem 0 0;
+        width: 1rem;
+        height: 1rem;
+      }
+    }
   }
   &__categ {
     &__item {
-      //background: aquamarine;
       text-align: left;
       margin: 0.5rem 0;
       transition: all ease-in .25s;
       border-radius: 0.25rem;
-      box-shadow: -3px -3px 7px var(--white), 2px 2px 4px rgba(0,0,0, 0.1);
+      box-shadow: -2px -2px 4px var(--grey), 2px 2px 4px rgba(0,0,0, 0.1);
+      overflow: hidden;
 
+      &:hover {
+        box-shadow: 0px 0px 8px var(--grey),0px 0px 8px rgba(0,0,0,.1);
+      }
       &.active {
         .sider__categ__item__head {
-          //background: aqua;
+          
         }
         .sider__categ__btn {
           transform: rotate(45deg);
         }
         .sider__categ__item__sub {
-          display: flex;
+          padding: 0.75rem 1rem;
+          transform: translateX(0);
+          max-height: 100%;
+          max-height: fit-content;
+          opacity: 1;
+          transition: all ease-in .25s, transform .25s ease-in .25s, opacity .25s ease-in .25s;
         }
       }
 
@@ -331,11 +359,16 @@ code {
         padding: 0.75rem 1rem;
       }
       &__sub {
-        padding: 0.75rem 1rem;
+        padding: 0;
+        opacity: 0;
+        transition: all ease-in .25s, opacity ease-in .15s;
+        max-height: 0;
+        transform-origin: left;
+        transform: translateX(-0.25rem);
         flex-direction: column;
         align-items: baseline;
         border-top: 1px solid var(--grey);
-        display: none;
+        display: flex;
       }
     }
     &__title {
@@ -359,6 +392,13 @@ code {
         left: 0;
         top: calc(50% - 1px);
         transform: translateY(-50%);
+        transition: all ease-in .25s;
+      }
+      &:hover {
+        text-decoration: underline;
+        &:before {
+          left: 0.25rem;
+        }
       }
     }
     &__btn {

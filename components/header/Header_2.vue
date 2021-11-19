@@ -3,7 +3,7 @@
 
     <div class="headr__pre">
       <a href="" class="headr__pre__link">Pre-link 1</a>
-      <a href="" class="headr__pre__link">Pre-link 2</a>r
+      <a href="" class="headr__pre__link">Pre-link 2</a>
       <a href="" class="headr__pre__link">Pre-link 3</a>
     </div><!--/headr__pre-->
 
