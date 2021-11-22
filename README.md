@@ -70,7 +70,7 @@ Once you're done with your work, submit a pull request.
 
 ### Built with
 NuxtJS, Vue, rollup.js and some good old HTML, CSS and JS.
-Resetting CSS with normalize.css.
+Resetting CSS with a slightly different version of normalize.css.
 
 ### Copyright and license
 lotrekagency/lotrek-UI is licensed under the MIT License
