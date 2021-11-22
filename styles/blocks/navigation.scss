@@ -1,4 +1,4 @@
-.headr {
+.nav {
   @include container;
   position: relative;
   overflow: initial;
@@ -42,13 +42,13 @@
     }
 
     &.active {
-      .headr__hmb__line:nth-child(1) {
+      .nav__hmb__line:nth-child(1) {
         transform: translateY(calc(0.5rem + 1px)) rotate(45deg);
       }
-      .headr__hmb__line:nth-child(2) {
+      .nav__hmb__line:nth-child(2) {
         transform: scale(0);
       }
-      .headr__hmb__line:nth-child(3) {
+      .nav__hmb__line:nth-child(3) {
         transform: translateY(calc(-0.5rem - 1px)) rotate(-45deg);
       }
     }
@@ -96,7 +96,7 @@
       opacity: 1;
       z-index: 10;
       
-      .headr__core__link {
+      .nav__core__link {
         opacity: 1;
         transition: all ease-in .25s;
       }

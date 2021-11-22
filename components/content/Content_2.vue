@@ -1,8 +1,8 @@
 <template>
-  <div class="showcase">
-    <div class="showcase__inner showcase__inner--nopadding">
+  <div class="content">
+    <div class="content__inner content__inner--nopadding">
 
-      <div class="showcase__box">
+      <div class="content__box">
         <h2>
           Lorem.
         </h2>
@@ -10,9 +10,9 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
           Iure explicabo a repellat eligendi consequatur debitis quae amet minima molestiae veniam!
         </p>
-      </div><!--/showcase__box-->
+      </div><!--/content__box-->
 
-      <div class="showcase__box">
+      <div class="content__box">
         <h3>
           Lorem, ipsum dolor.
         </h3>
@@ -20,14 +20,14 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
           Iure explicabo a repellat eligendi consequatur debitis quae amet minima molestiae veniam!
         </p>
-        <a href="" class="showcase__btn">Button</a>
-      </div><!--/showcase__box-->
+        <a href="" class="content__btn">Button</a>
+      </div><!--/content__box-->
 
-      <div class="showcase__box">
-        <figure class="showcase__box__background">
-          <img src="../../static/assets/images/placeholder-bg.jpg" alt="" class="showcase__box__background__image">
+      <div class="content__box">
+        <figure class="content__box__background">
+          <img src="../../static/assets/images/placeholder-bg.jpg" alt="" class="content__box__background__image">
         </figure>
-        <div class="showcase__box__inner">
+        <div class="content__box__inner">
           <h2>
             Lorem, ipsum dolor.
           </h2>
@@ -35,9 +35,9 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
             Iure explicabo a repellat eligendi consequatur debitis quae amet minima molestiae veniam!
           </p>
-        </div><!--/showcase__box__inner-->
-      </div><!--/showcase__box-->
+        </div><!--/content__box__inner-->
+      </div><!--/content__box-->
 
-    </div><!--/showcase__inner-->
-  </div><!--/showcase-->
+    </div><!--/content__inner-->
+  </div><!--/content-->
 </template>

@@ -26,7 +26,7 @@
         <!-- Hero blocks -->
         <div class="sider__categ__item" id="bcat-0">
           <div class="sider__categ__item__head">
-            <span class="sider__categ__title">Hero blocks</span>
+            <span class="sider__categ__title">Hero</span>
             <span class="sider__categ__btn">+</span>
           </div><!--/sider__categ__item__head-->
           <div class="sider__categ__item__sub">
@@ -36,36 +36,35 @@
           </div><!--/sider__categ__item__sub-->
         </div><!--/sider__categ__item-->
 
-        <!-- Features blocks -->
+        <!-- Navigation blocks -->
         <div class="sider__categ__item" id="bcat-1">
           <div class="sider__categ__item__head">
-            <span class="sider__categ__title">Features blocks</span>
+            <span class="sider__categ__title">Navigation</span>
             <span class="sider__categ__btn">+</span>
           </div><!--/sider__categ__item__head-->
           <div class="sider__categ__item__sub">
-            <span class="sider__categ__bname">Features n.1</span>
-            <span class="sider__categ__bname">Features n.2</span>
-            <span class="sider__categ__bname">Features n.3</span>
+            <span class="sider__categ__bname">Navigation n.1</span>
+            <span class="sider__categ__bname">Navigation n.2</span>
           </div><!--/sider__categ__item__sub-->
         </div><!--/sider__categ__item-->
 
-        <!-- Showcase blocks -->
+        <!-- Content blocks -->
         <div class="sider__categ__item" id="bcat-2">
           <div class="sider__categ__item__head">
-            <span class="sider__categ__title">Showcase blocks</span>
+            <span class="sider__categ__title">Content</span>
             <span class="sider__categ__btn">+</span>
           </div><!--/sider__categ__item__head-->
           <div class="sider__categ__item__sub">
-            <span class="sider__categ__bname">Showcase n.1</span>
-            <span class="sider__categ__bname">Showcase n.2</span>
-            <span class="sider__categ__bname">Showcase n.3</span>
+            <span class="sider__categ__bname">Content n.1</span>
+            <span class="sider__categ__bname">Content n.2</span>
+            <span class="sider__categ__bname">Content n.3</span>
           </div><!--/sider__categ__item__sub-->
         </div><!--/sider__categ__item-->
 
         <!-- Marketing blocks -->
         <div class="sider__categ__item" id="bcat-3">
           <div class="sider__categ__item__head">
-            <span class="sider__categ__title">Marketing blocks</span>
+            <span class="sider__categ__title">Marketing</span>
             <span class="sider__categ__btn">+</span>
           </div><!--/sider__categ__item__head-->
           <div class="sider__categ__item__sub">
@@ -74,15 +73,27 @@
           </div><!--/sider__categ__item__sub-->
         </div><!--/sider__categ__item-->
 
-        <!-- Header blocks -->
+        <!-- Features blocks -->
         <div class="sider__categ__item" id="bcat-4">
           <div class="sider__categ__item__head">
-            <span class="sider__categ__title">Header blocks</span>
+            <span class="sider__categ__title">Features</span>
             <span class="sider__categ__btn">+</span>
           </div><!--/sider__categ__item__head-->
           <div class="sider__categ__item__sub">
-            <span class="sider__categ__bname">Header n.1</span>
-            <span class="sider__categ__bname">Header n.2</span>
+            <span class="sider__categ__bname">Features n.1</span>
+            <span class="sider__categ__bname">Features n.2</span>
+          </div><!--/sider__categ__item__sub-->
+        </div><!--/sider__categ__item-->
+
+        <!-- Showcase blocks -->
+        <div class="sider__categ__item" id="bcat-5">
+          <div class="sider__categ__item__head">
+            <span class="sider__categ__title">Showcase</span>
+            <span class="sider__categ__btn">+</span>
+          </div><!--/sider__categ__item__head-->
+          <div class="sider__categ__item__sub">
+            <span class="sider__categ__bname">Showcase n.1</span>
+            <span class="sider__categ__bname">Showcase n.2</span>
           </div><!--/sider__categ__item__sub-->
         </div><!--/sider__categ__item-->
 
@@ -116,42 +127,36 @@
         <div class="core__categ" id="ccat-1">
           <div class="core__block">
             <span class="core__block__title">
-              <code>Features_1.vue</code> Features block n.1
+              <code>Navigation_1.vue</code> Navigation block n.1 - Simple navbar
             </span>
-            <Features_1 />
+            <Navigation_1 />
           </div>
           <div class="core__block">
             <span class="core__block__title">
-              <code>Features_2.vue</code> Features block n.2
+              <code>Navigation_2.vue</code> Header block n.2 - Multiple levels navbar with megamenu
             </span>
-            <Features_2 />
-          </div>
-          <div class="core__block">
-            <span class="core__block__title">
-              <code>Features_3.vue</code> Features block n.3 - Accordion
-            </span>
-            <Features_3 />
+            <Navigation_2 />
           </div>
         </div><!--/core__categ-->
 
         <div class="core__categ" id="ccat-2">
           <div class="core__block">
             <span class="core__block__title">
-              <code>Showcase_1.vue</code> Showcase block n.1
+              <code>Content_1.vue</code> Content block n.1
             </span>
-            <Showcase_1 />
+            <Content_1 />
           </div>
           <div class="core__block">
             <span class="core__block__title">
-              <code>Showcase_2.vue</code> Showcase block n.2
+              <code>Content_2.vue</code> Content block n.2
             </span>
-            <Showcase_2 />
+            <Content_2 />
           </div>
           <div class="core__block">
             <span class="core__block__title">
-              <code>Showcase_3.vue</code> Showcase block n.3
+              <code>Content_3.vue</code> Content block n.3 - Accordion
             </span>
-            <Showcase_3 />
+            <Content_3 />
           </div>
         </div><!--/core__categ-->
 
@@ -173,15 +178,30 @@
         <div class="core__categ" id="ccat-4">
           <div class="core__block">
             <span class="core__block__title">
-              <code>Header_1.vue</code> Header block n.1 - simple header
+              <code>Features_1.vue</code> Features block n.1
             </span>
-            <Header_1 />
+            <Features_1 />
           </div>
           <div class="core__block">
             <span class="core__block__title">
-              <code>Header_2.vue</code> Header block n.2 - multiple levels header with megamenu
+              <code>Features_2.vue</code> Features block n.2
             </span>
-            <Header_2 />
+            <Features_2 />
+          </div>
+        </div><!--/core__categ-->
+
+        <div class="core__categ" id="ccat-5">
+          <div class="core__block">
+            <span class="core__block__title">
+              <code>Showcase_1.vue</code> Showcase block n.1
+            </span>
+            <Showcase_1 />
+          </div>
+          <div class="core__block">
+            <span class="core__block__title">
+              <code>Showcase_2.vue</code> Showcase block n.2
+            </span>
+            <Showcase_2 />
           </div>
         </div><!--/core__categ-->
 
@@ -462,17 +482,19 @@ import Hero_3 from '~/components/hero/Hero_3.vue';
 
 import Features_1 from '~/components/features/Features_1.vue';
 import Features_2 from '~/components/features/Features_2.vue';
-import Features_3 from '~/components/features/Features_3.vue';
 
 import Showcase_1 from '~/components/showcase/Showcase_1.vue';
 import Showcase_2 from '~/components/showcase/Showcase_2.vue';
-import Showcase_3 from '~/components/showcase/Showcase_3.vue';
 
 import Marketing_1 from '~/components/marketing/Marketing_1.vue';
 import Marketing_2 from '~/components/marketing/Marketing_2.vue';
 
-import Header_1 from '~/components/header/Header_1.vue';
-import Header_2 from '~/components/header/Header_2.vue';
+import Navigation_1 from '~/components/navigation/Navigation_1.vue';
+import Navigation_2 from '~/components/navigation/Navigation_2.vue';
+
+import Content_1 from '~/components/content/Content_1.vue';
+import Content_2 from '~/components/content/Content_2.vue';
+import Content_3 from '~/components/content/Content_3.vue';
 
 export default {
   components: {
@@ -481,14 +503,15 @@ export default {
     Hero_3,
     Features_1,
     Features_2,
-    Features_3,
     Showcase_1,
     Showcase_2,
-    Showcase_3,
     Marketing_1,
     Marketing_2,
-    Header_1,
-    Header_2
+    Navigation_1,
+    Navigation_2,
+    Content_1,
+    Content_2,
+    Content_3
   },
   mounted: function() {
 
