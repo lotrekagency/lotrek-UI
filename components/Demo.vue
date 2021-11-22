@@ -363,7 +363,7 @@ code {
           transform: rotate(45deg);
         }
         .sider__categ__item__sub {
-          padding: 0.75rem 1rem;
+          padding: 0.5rem 0.75rem;
           transform: translateX(0);
           max-height: 100%;
           max-height: fit-content;
@@ -377,7 +377,7 @@ code {
         justify-content: space-between;
         align-items: center;
         cursor: pointer;
-        padding: 0.75rem 1rem;
+        padding: 0.5rem 0.75rem;
       }
       &__sub {
         padding: 0;
