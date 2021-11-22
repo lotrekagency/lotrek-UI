@@ -260,8 +260,8 @@ code {
   padding: 1rem;
   top: 0%;
   left: 0%;
-  width: clamp(225px,16.5vw,300px);
-  flex: 0 0 clamp(225px,16.5vw,300px);
+  width: clamp(250px,17.5vw,300px);
+  flex: 0 0 clamp(250px,17.5vw,300px);
   height: calc(100vh - 2rem);
   overflow-y: auto;
   z-index: 10;
@@ -309,6 +309,7 @@ code {
       color: var(--white);
       align-items: center;
       justify-content: flex-start;
+      font-size: 0.8rem;
       line-height: 1;
       display: inline-flex;
       border-radius: 0.25rem;
@@ -347,7 +348,7 @@ code {
           max-height: 100%;
           max-height: fit-content;
           opacity: 1;
-          transition: all ease-in .25s, transform .25s ease-in .25s, opacity .25s ease-in .25s;
+          transition: all ease-in .15s, transform .075s ease-in .15s, opacity .075s ease-in .15s;
         }
       }
 
