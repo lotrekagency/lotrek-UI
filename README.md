@@ -12,7 +12,7 @@ To check the demo/docs page please visit:
 
 [Using lotrek UI](#using-lotrek-ui)
 
-[Getting started](#getting-started)
+[Running the demo](#running-the-demo)
 
 [lotrek-ui.css](#lotrek-ui.css)
 
@@ -27,10 +27,17 @@ To check the demo/docs page please visit:
 [TODO](#todo)
 
 ### Using lotrek UI
-To use this collection of micro-layouts simply copy the HTML code inside `<template>` in the /components/category/name-of-block.vue file, 
-and remember to add the lotrek-ui.css stylesheet in your project, which is a very small CSS file (less than 3kb when compressed with GZIP).
+To use this collection of micro-layouts simply copy the HTML code inside `<template>` in the /components/category/name-of-block.vue file.
 
-### Getting started
+Remember to add the lotrek-ui.css stylesheet in your project, which is a very small CSS file (less than 3kb when compressed with GZIP). To do so, simply do the following:
+
+`yarn add lotrek-ui-css`
+
+Then add the CSS file, like this in your javascript file:
+
+`import 'lotrek-ui-css/build/lotrek-ui.css'`
+
+### Running the demo
 The Lotrek UI Kit has ready-to-use HTML blocks with some starter CSS (and JS when needed). 
 Each block is written as a component which can be found in the /components/ path.
 
@@ -50,7 +57,8 @@ If you wish to build for production, run:
 
 ### lotrek-ui.css
 The CSS bundle file (lotrek-ui.css) to make the raw HTML blocks work is located at the /styles/build/ path.
-To build this file simply do the following:
+
+To build this file (for publish purposes) simply do the following:
 
 `cd styles`
 
