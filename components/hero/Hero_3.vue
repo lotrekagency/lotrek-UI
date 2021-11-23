@@ -11,7 +11,7 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga porro illum quaerat velit, quas vitae culpa nam impedit dignissimos.
           <br>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa veritatis culpa necessitatibus quam beatae repellat, neque sit, laudantium reiciendis ut voluptas enim animi ab quia, eveniet eaque perspiciatis.
-        </p>s
+        </p>
         <a href="" class="hero__btn">
           Button
         </a>

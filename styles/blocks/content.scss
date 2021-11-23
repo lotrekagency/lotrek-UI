@@ -56,6 +56,10 @@
       margin-bottom: 1rem;
       text-align: left;
 
+      &:last-child {
+        margin-bottom: 0;
+      }
+
       &.active {
         .content__acc__icon {
           transform: rotate(180deg);
