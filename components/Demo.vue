@@ -449,6 +449,7 @@ code {
     margin-bottom: 4rem;
     box-shadow: 2px 2px 4px rgba(0,0,0, 0.1);
     position: relative;
+    scroll-margin: 2rem;
 
     &__title {
       display: inline-block;
