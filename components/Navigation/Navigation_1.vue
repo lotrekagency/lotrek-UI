@@ -13,7 +13,15 @@
       </div><!--/nav__hmb-->
 
       <nav class="nav__core">
-        <a href="" class="nav__core__link">Link 1</a>
+        <div class="nav__core__link nav__core__link--dropdown">
+          <span class="nav__core__link__label">Dropdown 1</span>
+
+          <div class="nav__core__dropdown">
+            <a href="" class="nav__core__dropdown__link">Dropdown link 1</a>
+            <a href="" class="nav__core__dropdown__link">Dropdown link 2</a>
+            <a href="" class="nav__core__dropdown__link">Dropdown link 3</a>
+          </div>
+        </div>
         <a href="" class="nav__core__link">Link 2</a>
         <a href="" class="nav__core__link">Link 3</a>
         <a href="" class="nav__core__link">Link 4</a>
