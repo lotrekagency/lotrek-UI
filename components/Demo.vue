@@ -98,6 +98,12 @@
         </div><!--/sider__categ__item-->
 
       </div><!--/sider__categ-->
+
+      <div class="sider__footer">
+        <a href="https://raw.githubusercontent.com/lotrekagency/lotrek-UI/main/styles/build/lotrek-ui.css" target="_blank" class="sider__footer__link">
+          Get the CSS
+        </a>
+      </div>
     </div><!--/sider-->
 
     <div class="core demo__core">
@@ -277,6 +283,8 @@ code {
 }//demo
 
 .sider {
+  display: flex;
+  flex-direction: column;
   padding: 1rem;
   top: 0%;
   left: 0%;
@@ -341,6 +349,17 @@ code {
         width: 1rem;
         height: 1rem;
       }
+    }
+  }
+  &__footer {
+    margin-top: auto;
+
+    &__link {
+      background: #0F7EE6;
+      color: var(--white);
+      border-radius: 0.25rem;
+      padding: 0.25rem 0.5rem;
+      text-decoration: none;
     }
   }
   &__categ {
