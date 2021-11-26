@@ -1,6 +1,10 @@
 <template>
   <div class="hero">
     <div class="hero__inner">
+      <figure class="hero__background hero__background--block">
+        <img src="../../static/assets/images/placeholder-bg.jpg" alt="" class="hero__background__img">
+      </figure><!--/hero__background-->
+      
       <div class="hero__content hero__content--full hero__content--focus">
         <h1 class="hero__title">
           Lorem ipsum dolor sit.
@@ -16,10 +20,6 @@
           Button
         </a>
       </div><!--/content-->
-
-      <figure class="hero__background">
-        <img src="../../static/assets/images/placeholder-bg.jpg" alt="" class="hero__background__img">
-      </figure><!--/hero__background-->
     </div><!--/hero__inner-->
   </div><!--/hero-->
 </template>
