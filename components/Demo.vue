@@ -97,6 +97,18 @@
           </div><!--/sider__categ__item__sub-->
         </div><!--/sider__categ__item-->
 
+        <!-- Showcase blocks -->
+        <div class="sider__categ__item" id="bcat-6">
+          <div class="sider__categ__item__head">
+            <span class="sider__categ__title">Slider</span>
+            <span class="sider__categ__btn">+</span>
+          </div><!--/sider__categ__item__head-->
+          <div class="sider__categ__item__sub">
+            <span class="sider__categ__bname">Slider n.1</span>
+            <span class="sider__categ__bname">Slider n.2</span>
+          </div><!--/sider__categ__item__sub-->
+        </div><!--/sider__categ__item-->
+
       </div><!--/sider__categ-->
 
       <div class="sider__footer">
@@ -208,6 +220,21 @@
               <code>Showcase_2.vue</code> Showcase block n.2
             </span>
             <Showcase_2 />
+          </div>
+        </div><!--/core__categ-->
+
+        <div class="core__categ" id="ccat-6">
+          <div class="core__block">
+            <span class="core__block__title">
+              <code>Slider_1.vue</code> Slider block n.1
+            </span>
+            
+          </div>
+          <div class="core__block">
+            <span class="core__block__title">
+              <code>Slider_2.vue</code> Slider block n.2
+            </span>
+            
           </div>
         </div><!--/core__categ-->
 
