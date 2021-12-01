@@ -15,12 +15,12 @@
   &__core {
     border: 1px solid var(--grey);
     margin: 2rem 0;
-    padding: 2rem 1rem 1rem;
+    padding: 2rem 2rem 1rem;
     
     &--small {
 
       @media (min-width: 769px) {
-        grid-column: 5/9;
+        grid-column: 4/10;
       }
     }
   }
@@ -49,6 +49,38 @@
       &--row {
         flex-direction: row;
       }
+      &--nomargin {
+        margin: 0;
+      }
+    }
+
+    &__group {
+      display: flex;
+      flex-wrap: wrap;
+      flex: 1;
+      margin-bottom: 1rem;
+      border: 1px solid var(--grey);
+
+      @media (min-width: 1367px) {
+        margin-right: 1rem;
+
+        &:last-child:first-child {
+          margin-right: 0;
+        }
+        &:last-child:not(:first-child) {
+          margin-right: 0;
+        }
+      }
+
+      &--subgroup {
+        border: 0;
+        align-items: center;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
     }
   }
   &__item {
@@ -56,6 +88,7 @@
   }
   &__pretxt {
     cursor: pointer;
+    margin-right: 1rem;
   }
   &__checkbox {
     margin-right: 0.5rem;

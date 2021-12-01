@@ -1,7 +1,7 @@
 <template>
   <div class="form">
     <div class="form__inner">
-      
+
       <div class="form__content">
         <span>
           Lorem, ipsum.
@@ -36,17 +36,24 @@
         </div><!--/box-->
 
         <div class="form__box">
-          <div class="form__box__cell form__box__cell--row">
-            <input class="form__radio" type="radio" name="formRadioGroup" id="formRadio1">
-            <label for="formRadio1" class="form__pretxt">Radio 1</label>
-          </div>
-          <div class="form__box__cell form__box__cell--row">
-            <input class="form__radio" type="radio" name="formRadioGroup" id="formRadio2">
-            <label for="formRadio2" class="form__pretxt">Radio 2</label>
-          </div>
-        </div><!--/box-->
+          <div class="form__box__group">
+            <div class="form__box__cell">
+              <label for="formPreRadio" class="form__pretxt">Pre-radio</label>
+              <input class="form__item" type="text" name="" id="formPreRadio" placeholder="Pre-radio">
+            </div>
+            
+            <div class="form__box__group form__box__group--subgroup">
+              <div class="form__box__cell form__box__cell--row form__box__cell--nomargin">
+                <input class="form__radio" type="radio" name="formRadioGroup" id="formRadio1">
+                <label for="formRadio1" class="form__pretxt">Radio 1</label>
+              </div>
+              <div class="form__box__cell form__box__cell--row form__box__cell--nomargin">
+                <input class="form__radio" type="radio" name="formRadioGroup" id="formRadio2">
+                <label for="formRadio2" class="form__pretxt">Radio 2</label>
+              </div>
+            </div><!--/box--subgroup-->
+          </div><!--/box__group-->
 
-        <div class="form__box">
           <div class="form__box__cell">
             <label for="formSelect" class="form__pretxt">Select</label>
             <select name="" id="formSelect">
@@ -54,6 +61,17 @@
               <option value="1">Value 1</option>
               <option value="2">Value 2</option>
             </select>
+          </div>
+        </div><!--/box-->
+
+        <div class="form__box">
+          <div class="form__box__cell form__box__cell--row">
+            <input class="form__checkbox" type="checkbox" name="formCheckboxGroup" id="formCheckbox1">
+            <label for="formCheckbox1" class="form__pretxt">Checkbox 1</label>
+          </div>
+          <div class="form__box__cell form__box__cell--row">
+            <input class="form__checkbox" type="checkbox" name="formCheckboxGroup" id="formCheckbox2">
+            <label for="formCheckbox2" class="form__pretxt">Checkbox 2</label>
           </div>
         </div><!--/box-->
 
