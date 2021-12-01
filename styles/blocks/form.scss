@@ -47,7 +47,7 @@
       flex: 1;
       margin-bottom: 1rem;
 
-      @media (min-width: 1367px) {
+      @media (min-width: 769px) {
         margin-right: 1rem;
 
         &:last-child:first-child {
@@ -73,7 +73,7 @@
       margin-bottom: 1rem;
       border: 1px solid var(--grey);
 
-      @media (min-width: 1367px) {
+      @media (min-width: 769px) {
         margin-right: 1rem;
 
         &:last-child:first-child {
