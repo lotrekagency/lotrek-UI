@@ -1,0 +1,71 @@
+.form {
+  @include container;
+
+  &__inner {
+    @include grid;
+  }
+  &__content {
+    text-align: center;
+    padding: 2rem 2rem 0;
+
+    @media (min-width: 769px) {
+      grid-column: 4/10;
+    }
+  }
+  &__core {
+    border: 1px solid var(--grey);
+    margin: 2rem 0;
+    padding: 2rem 1rem 1rem;
+    
+    &--small {
+
+      @media (min-width: 769px) {
+        grid-column: 5/9;
+      }
+    }
+  }
+  &__box {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+
+    &__cell {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      margin-bottom: 1rem;
+
+      @media (min-width: 1367px) {
+        margin-right: 1rem;
+
+        &:last-child:first-child {
+          margin-right: 0;
+        }
+        &:last-child:not(:first-child) {
+          margin-right: 0;
+        }
+      }
+
+      &--row {
+        flex-direction: row;
+      }
+    }
+  }
+  &__item {
+    flex: 1;
+  }
+  &__pretxt {
+    cursor: pointer;
+  }
+  &__checkbox {
+    margin-right: 0.5rem;
+    margin-top: 0.125rem;
+  }
+  &__radio {
+    margin-right: 0.5rem;
+    margin-top: 0.125rem;
+  }
+  &__btn {
+    @include btn;
+  }
+}
