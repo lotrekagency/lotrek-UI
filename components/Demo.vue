@@ -261,7 +261,7 @@
             <span class="core__block__title">
               <code>Form_2.vue</code> Form block n.2
             </span>
-            
+            <Form_2 />
           </div>
         </div><!--/core__categ-->
 
@@ -571,6 +571,7 @@ import Content_2 from '~/components/content/Content_2.vue';
 import Content_3 from '~/components/content/Content_3.vue';
 
 import Form_1 from '~/components/form/Form_1.vue';
+import Form_2 from '~/components/form/Form_2.vue';
 
 export default {
   components: {
@@ -588,7 +589,8 @@ export default {
     Content_1,
     Content_2,
     Content_3,
-    Form_1
+    Form_1,
+    Form_2
   },
   mounted: function() {
 

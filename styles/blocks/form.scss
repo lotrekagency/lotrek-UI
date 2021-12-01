@@ -11,6 +11,12 @@
     @media (min-width: 769px) {
       grid-column: 4/10;
     }
+    &--side {
+      text-align: left;
+      @media (min-width: 769px) {
+        grid-column: 2/6;
+      }
+    }
   }
   &__core {
     border: 1px solid var(--grey);
@@ -21,6 +27,12 @@
 
       @media (min-width: 769px) {
         grid-column: 4/10;
+      }
+    }
+    &--side {
+      
+      @media (min-width: 769px) {
+        grid-column: 7/12;
       }
     }
   }
