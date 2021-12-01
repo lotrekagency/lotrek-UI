@@ -1,0 +1,116 @@
+.form {
+  @include container;
+
+  &__inner {
+    @include grid;
+  }
+  &__content {
+    text-align: center;
+    padding: 2rem 2rem 0;
+
+    @media (min-width: 769px) {
+      grid-column: 4/10;
+    }
+    &--side {
+      text-align: left;
+      @media (min-width: 769px) {
+        grid-column: 2/6;
+      }
+    }
+  }
+  &__core {
+    border: 1px solid var(--grey);
+    margin: 2rem 0;
+    padding: 2rem 2rem 1rem;
+    
+    &--small {
+
+      @media (min-width: 769px) {
+        grid-column: 4/10;
+      }
+    }
+    &--side {
+      
+      @media (min-width: 769px) {
+        grid-column: 7/12;
+      }
+    }
+  }
+  &__box {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+
+    &__cell {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      margin-bottom: 1rem;
+
+      @media (min-width: 769px) {
+        margin-right: 1rem;
+
+        &:last-child:first-child {
+          margin-right: 0;
+        }
+        &:last-child:not(:first-child) {
+          margin-right: 0;
+        }
+      }
+
+      &--row {
+        flex-direction: row;
+      }
+      &--nomargin {
+        margin: 0;
+      }
+    }
+
+    &__group {
+      display: flex;
+      flex-wrap: wrap;
+      flex: 1;
+      margin-bottom: 1rem;
+      border: 1px solid var(--grey);
+
+      @media (min-width: 769px) {
+        margin-right: 1rem;
+
+        &:last-child:first-child {
+          margin-right: 0;
+        }
+        &:last-child:not(:first-child) {
+          margin-right: 0;
+        }
+      }
+
+      &--subgroup {
+        border: 0;
+        align-items: center;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+    }
+  }
+  &__item {
+    flex: 1;
+  }
+  &__pretxt {
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+  &__checkbox {
+    margin-right: 0.5rem;
+    margin-top: 0.125rem;
+  }
+  &__radio {
+    margin-right: 0.5rem;
+    margin-top: 0.125rem;
+  }
+  &__btn {
+    @include btn;
+  }
+}

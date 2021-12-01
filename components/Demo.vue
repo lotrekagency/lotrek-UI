@@ -109,6 +109,18 @@
           </div><!--/sider__categ__item__sub-->
         </div><!--/sider__categ__item-->
 
+        <!-- Showcase blocks -->
+        <div class="sider__categ__item" id="bcat-7">
+          <div class="sider__categ__item__head">
+            <span class="sider__categ__title">Form</span>
+            <span class="sider__categ__btn">+</span>
+          </div><!--/sider__categ__item__head-->
+          <div class="sider__categ__item__sub">
+            <span class="sider__categ__bname">Form n.1</span>
+            <span class="sider__categ__bname">Form n.2</span>
+          </div><!--/sider__categ__item__sub-->
+        </div><!--/sider__categ__item-->
+
       </div><!--/sider__categ-->
 
       <div class="sider__footer">
@@ -235,6 +247,21 @@
               <code>Slider_2.vue</code> Slider block n.2
             </span>
             
+          </div>
+        </div><!--/core__categ-->
+
+        <div class="core__categ" id="ccat-7">
+          <div class="core__block">
+            <span class="core__block__title">
+              <code>Form_1.vue</code> Form block n.1
+            </span>
+            <Form_1 />
+          </div>
+          <div class="core__block">
+            <span class="core__block__title">
+              <code>Form_2.vue</code> Form block n.2
+            </span>
+            <Form_2 />
           </div>
         </div><!--/core__categ-->
 
@@ -543,6 +570,9 @@ import Content_1 from '~/components/content/Content_1.vue';
 import Content_2 from '~/components/content/Content_2.vue';
 import Content_3 from '~/components/content/Content_3.vue';
 
+import Form_1 from '~/components/form/Form_1.vue';
+import Form_2 from '~/components/form/Form_2.vue';
+
 export default {
   components: {
     Hero_1,
@@ -558,7 +588,9 @@ export default {
     Navigation_2,
     Content_1,
     Content_2,
-    Content_3
+    Content_3,
+    Form_1,
+    Form_2
   },
   mounted: function() {
 
