@@ -106,6 +106,7 @@
           <div class="sider__categ__item__sub">
             <span class="sider__categ__bname">Slider n.1</span>
             <span class="sider__categ__bname">Slider n.2</span>
+            <span class="sider__categ__bname">Slider n.3</span>
           </div><!--/sider__categ__item__sub-->
         </div><!--/sider__categ__item-->
 
@@ -245,6 +246,12 @@
           <div class="core__block">
             <span class="core__block__title">
               <code>Slider_2.vue</code> Slider block n.2
+            </span>
+            
+          </div>
+          <div class="core__block">
+            <span class="core__block__title">
+              <code>Slider_3.vue</code> Slider block n.3 - Testimonial
             </span>
             
           </div>
