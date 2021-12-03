@@ -43,7 +43,9 @@
       </div><!--/slider__nav-->
 
       <div class="slider__dots">
-
+        <div class="slider__dot active" data-slidedot="0"></div>
+        <div class="slider__dot" data-slidedot="1"></div>
+        <div class="slider__dot" data-slidedot="2"></div>
       </div><!--/slider__dots-->
 
     </div><!--/slider__core-->
@@ -64,11 +66,14 @@ export default {
       if(e.target.classList.contains("slider__nav__prev")) {
         let currentSlide = parseInt(context.querySelector(".slider__core__slide.active").dataset.slide);
         context.querySelector(".slider__core__slide.active").classList.remove("active");
+        context.querySelector(".slider__dot.active").classList.remove("active");
         if(currentSlide != 0) {
           this.querySelectorAll(".slider__core__slide")[currentSlide - 1].classList.add("active");
+          this.querySelectorAll(".slider__dot")[currentSlide - 1].classList.add("active");
         } else {
           //getting the last slide and activating it
           this.querySelectorAll(".slider__core__slide")[this.querySelectorAll(".slider__core__slide").length - 1].classList.add("active");
+          this.querySelectorAll(".slider__dot")[this.querySelectorAll(".slider__core__slide").length - 1].classList.add("active");
         }
       }
 
@@ -76,13 +81,26 @@ export default {
       if(e.target.classList.contains("slider__nav__next")) {
         let currentSlide = parseInt(context.querySelector(".slider__core__slide.active").dataset.slide);
         context.querySelector(".slider__core__slide.active").classList.remove("active");
+        context.querySelector(".slider__dot.active").classList.remove("active");
         console.log(currentSlide)
         if(currentSlide == (this.querySelectorAll(".slider__core__slide").length - 1)) {
           //getting the first slide and activating it
           this.querySelectorAll(".slider__core__slide")[0].classList.add("active");
+          this.querySelectorAll(".slider__dot")[0].classList.add("active");
         } else {
           this.querySelectorAll(".slider__core__slide")[currentSlide + 1].classList.add("active");
+          this.querySelectorAll(".slider__dot")[currentSlide + 1].classList.add("active");
         }
+      }
+
+      //if clicking the dot navigation
+      if(e.target.classList.contains("slider__dot")) {
+        context.querySelector(".slider__core__slide.active").classList.remove("active");
+        context.querySelector(".slider__dot.active").classList.remove("active");
+        e.target.classList.add("active");
+        let currentDot = parseInt(e.target.dataset.slidedot);
+        console.log(currentDot)
+        context.querySelector('.slider__core__slide[data-slide="'+currentDot+'"]').classList.add("active");
       }
 
     })

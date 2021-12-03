@@ -58,4 +58,32 @@
       cursor: pointer;
     }
   }
+  &__dots {
+    position: absolute;
+    z-index: 10;
+    bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &__dot {
+    cursor: pointer;
+    margin-right: 0.5rem;
+    padding: 0.25rem;
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    background-color: var(--grey);
+    &:last-child {
+      margin-right: 0;
+    }
+    &.active {
+      background-color: var(--black);
+    }
+  }
 }
