@@ -7,7 +7,7 @@
   }
   &__content {
     padding: 2rem 2rem 0;
-    
+
     &--center {
       text-align: center;
     }
@@ -68,7 +68,7 @@
       flex: none;
       width: calc(100% - 2rem);
       height: 250px;
-      padding: 0 1rem;
+      padding: 1rem;
       text-align: center;
       overflow: hidden;
       border: 1px solid var(--black);
@@ -83,6 +83,22 @@
         flex: 0 0 350px;
         max-width: 350px;
         width: 350px;
+      }
+
+      &--big {
+        height: auto;
+        border: 0;
+
+        @media (min-width: 769px) {
+          flex: none;
+          width: calc(100% - 2rem);
+          max-width: none;
+        }
+      }
+      &__inner {
+        max-width: 550px;
+        padding: 2rem;
+        border: 1px solid var(--black);
       }
     }
   }

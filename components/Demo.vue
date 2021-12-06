@@ -253,7 +253,7 @@
             <span class="core__block__title">
               <code>Slider_3.vue</code> Slider block n.3 - Testimonial
             </span>
-            
+            <Slider_3 />
           </div>
         </div><!--/core__categ-->
 
@@ -579,6 +579,7 @@ import Content_3 from '~/components/content/Content_3.vue';
 
 import Slider_1 from '~/components/slider/Slider_1.vue';
 import Slider_2 from '~/components/slider/Slider_2.vue';
+import Slider_3 from '~/components/slider/Slider_3.vue';
 
 import Form_1 from '~/components/form/Form_1.vue';
 import Form_2 from '~/components/form/Form_2.vue';
@@ -601,6 +602,7 @@ export default {
     Content_3,
     Slider_1,
     Slider_2,
+    Slider_3,
     Form_1,
     Form_2
   },
