@@ -17,10 +17,10 @@
 
       /*
       width: 100% - horizontal padding, which is 20% + 20% -> 100% - 40%
-      height: 100% - vertical padding, which is 1rem + 1rem -> 100% - 2rem
+      height: 100% - vertical padding, which is 2rem + 2rem -> 100% - 4rem
       */
       width: 60%;
-      height: calc(100% - 2rem);
+      height: calc(100% - 4rem);
       padding: 2rem 20%;
 
       display: flex;
@@ -30,6 +30,10 @@
       text-align: center;
       
       display: none;
+
+      @media (min-width: 769px) {
+        height: calc(100% - 2rem);
+      }
 
       &.active {
         display: flex;
@@ -101,24 +105,32 @@
   &__dots {
     position: absolute;
     z-index: 10;
-    bottom: 1rem;
+    bottom: 0.125rem;
     display: flex;
     align-items: center;
     justify-content: center;
     left: 50%;
     transform: translateX(-50%);
+
+    @media (min-width: 769px) {
+      bottom: 1rem;
+    }
   }
   &__dot {
     cursor: pointer;
     margin-right: 0.5rem;
     padding: 0.25rem;
-    width: 1rem;
-    height: 1rem;
+    width: 0.75rem;
+    height: 0.75rem;
     display: flex;
     align-items: center;
     justify-content: center;
     line-height: 1;
     background-color: var(--grey);
+    @media (min-width: 769px) {
+      width: 1rem;
+      height: 1rem;
+    }
     &:last-child {
       margin-right: 0;
     }
