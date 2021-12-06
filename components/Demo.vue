@@ -122,6 +122,49 @@
     <div class="core demo__core">
       <div class="core__inner">
         
+        <div class="core__categ active" id="ccat-special">
+          <div class="core__categ__grid">
+            <div class="core__categ__row">
+              <span class="core__categ__mintitle">Hero blocks</span>
+              <img src="../static/assets/images/Hero_1 Icon.png" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Hero_2 Icon.png" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Hero_3 Icon.png" alt="" class="core__categ__icon">
+            </div><!--/row-->
+            <div class="core__categ__row">
+              <span class="core__categ__mintitle">Navigation blocks</span>
+              <img src="../static/assets/images/Navigation_1 Icon.png" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Navigation_2 Icon.png" alt="" class="core__categ__icon">
+            </div><!--/row-->
+            <div class="core__categ__row">
+              <span class="core__categ__mintitle">Content blocks</span>
+              <img src="../static/assets/images/Content_1 Icon.png" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Content_2 Icon.png" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Content_3 Icon.png" alt="" class="core__categ__icon">
+            </div><!--/row-->
+            <div class="core__categ__row">
+              <span class="core__categ__mintitle">Marketing blocks</span>
+              <img src="../static/assets/images/Marketing_1 Icon.png" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Marketing_2 Icon.png" alt="" class="core__categ__icon">
+            </div><!--/row-->
+            <div class="core__categ__row">
+              <span class="core__categ__mintitle">Feature blocks</span>
+              <img src="../static/assets/images/Feature_1 Icon.png" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Feature_2 Icon.png" alt="" class="core__categ__icon">
+            </div><!--/row-->
+            <div class="core__categ__row">
+              <span class="core__categ__mintitle">Form blocks</span>
+              <img src="../static/assets/images/Form_1 Icon.png" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Form_2 Icon.png" alt="" class="core__categ__icon">
+            </div><!--/row-->
+            <div class="core__categ__row">
+              <span class="core__categ__mintitle">Slider blocks</span>
+              <img src="../static/assets/images/Slider_1 Icon.png" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Slider_2 Icon.png" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Slider_3 Icon.png" alt="" class="core__categ__icon">
+            </div><!--/row-->
+          </div>
+        </div>
+
         <div class="core__categ" id="ccat-0">
           <div class="core__block">
             <span class="core__block__title">
@@ -524,6 +567,54 @@ code {
     &.active {
       display: block;
     }
+    &__grid {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    &__row {
+      flex: 1 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      background: var(--white);
+      border-radius: 0.25rem;
+      box-shadow: -2px -2px 4px var(--grey), 2px 2px 4px rgba(0,0,0, 0.1);
+
+      @media (min-width: 769px) {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+      }
+    }
+    &__mintitle {
+      flex: 0 0 200px;
+      max-width: 200px;
+      text-align: center;
+      font-size: 1.2rem;
+      line-height: 1;
+      margin: 1rem;
+      @media (min-width: 769px) {
+        text-align: left;
+        margin: 0 1rem;
+      }
+    }
+    &__icon {
+      width: 85px;
+      height: auto;
+      object-fit: contain;
+      margin: 1rem;
+      box-shadow: 2px 2px 4px rgba(0,0,0, 0.1);
+      @media (min-width: 769px) {
+        margin: 0 1.5rem 0 0;
+      }
+    }
   }
 }
 </style>
@@ -589,11 +680,13 @@ export default {
           if(e.target.classList.contains('sider__categ__bname')) {
             let elementIndex = Array.prototype.indexOf.call(element.querySelectorAll('.sider__categ__bname'), e.target);
             document.querySelectorAll('.core__categ.active .core__block')[elementIndex].scrollIntoView({behavior:'smooth',block:'start',inline:'start'});
+            document.querySelector('#ccat-special').classList.remove('active');
+
             if(document.querySelector('.sider').classList.contains('active')) {
-              document.querySelector('.sider').classList.remove('active')
+              document.querySelector('.sider').classList.remove('active');
             }
             if(document.querySelector('.demo__btn').classList.contains('active')) {
-              document.querySelector('.demo__btn').classList.remove('active')
+              document.querySelector('.demo__btn').classList.remove('active');
             }
             return false;
           }
@@ -602,6 +695,7 @@ export default {
           if(element.classList.contains('active')) {
             element.classList.remove('active');
             document.querySelector('.core__categ.active').classList.remove('active');
+            document.querySelector('#ccat-special').classList.add('active');
           } else {
 
             // Resetting the sider menu, closing already opened items
