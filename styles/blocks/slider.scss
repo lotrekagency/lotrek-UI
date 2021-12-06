@@ -5,6 +5,13 @@
   &__inner {
     @include grid;
   }
+  &__content {
+    padding: 2rem 2rem 0;
+    
+    &--center {
+      text-align: center;
+    }
+  }
   &__core {
     position: relative;
     height: clamp(300px, 35vh, 500px);
@@ -41,6 +48,7 @@
     }
   }
   &__carousel {
+    position: relative;
     padding: 3rem 2rem 4rem;
 
     &__list {

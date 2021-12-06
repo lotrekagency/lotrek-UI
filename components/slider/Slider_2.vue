@@ -1,5 +1,16 @@
 <template>
   <div class="slider" id="slider-2">
+
+    <div class="slider__inner">
+      <div class="slider__content slider__content--center">
+        <h1>Lorem, ipsum dolor.</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div><!--/slider__content-->
+    </div><!--/slider__inner-->
+
+
     <div class="slider__carousel">
 
       <div class="slider__carousel__list">
