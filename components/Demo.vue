@@ -85,20 +85,8 @@
           </div><!--/sider__categ__item__sub-->
         </div><!--/sider__categ__item-->
 
-        <!-- Showcase blocks -->
+        <!-- Slider blocks -->
         <div class="sider__categ__item" id="bcat-5">
-          <div class="sider__categ__item__head">
-            <span class="sider__categ__title">Showcase</span>
-            <span class="sider__categ__btn">+</span>
-          </div><!--/sider__categ__item__head-->
-          <div class="sider__categ__item__sub">
-            <span class="sider__categ__bname">Showcase n.1</span>
-            <span class="sider__categ__bname">Showcase n.2</span>
-          </div><!--/sider__categ__item__sub-->
-        </div><!--/sider__categ__item-->
-
-        <!-- Showcase blocks -->
-        <div class="sider__categ__item" id="bcat-6">
           <div class="sider__categ__item__head">
             <span class="sider__categ__title">Slider</span>
             <span class="sider__categ__btn">+</span>
@@ -110,8 +98,8 @@
           </div><!--/sider__categ__item__sub-->
         </div><!--/sider__categ__item-->
 
-        <!-- Showcase blocks -->
-        <div class="sider__categ__item" id="bcat-7">
+        <!-- Form blocks -->
+        <div class="sider__categ__item" id="bcat-6">
           <div class="sider__categ__item__head">
             <span class="sider__categ__title">Form</span>
             <span class="sider__categ__btn">+</span>
@@ -224,21 +212,6 @@
         <div class="core__categ" id="ccat-5">
           <div class="core__block">
             <span class="core__block__title">
-              <code>Showcase_1.vue</code> Showcase block n.1
-            </span>
-            <Showcase_1 />
-          </div>
-          <div class="core__block">
-            <span class="core__block__title">
-              <code>Showcase_2.vue</code> Showcase block n.2
-            </span>
-            <Showcase_2 />
-          </div>
-        </div><!--/core__categ-->
-
-        <div class="core__categ" id="ccat-6">
-          <div class="core__block">
-            <span class="core__block__title">
               <code>Slider_1.vue</code> Slider block n.1
             </span>
             <Slider_1 />
@@ -257,7 +230,7 @@
           </div>
         </div><!--/core__categ-->
 
-        <div class="core__categ" id="ccat-7">
+        <div class="core__categ" id="ccat-6">
           <div class="core__block">
             <span class="core__block__title">
               <code>Form_1.vue</code> Form block n.1
@@ -564,8 +537,8 @@ import Hero_3 from '~/components/hero/Hero_3.vue';
 import Features_1 from '~/components/features/Features_1.vue';
 import Features_2 from '~/components/features/Features_2.vue';
 
-import Showcase_1 from '~/components/showcase/Showcase_1.vue';
-import Showcase_2 from '~/components/showcase/Showcase_2.vue';
+//import Showcase_1 from '~/components/showcase/Showcase_1.vue';
+//import Showcase_2 from '~/components/showcase/Showcase_2.vue';
 
 import Marketing_1 from '~/components/marketing/Marketing_1.vue';
 import Marketing_2 from '~/components/marketing/Marketing_2.vue';
@@ -591,8 +564,6 @@ export default {
     Hero_3,
     Features_1,
     Features_2,
-    Showcase_1,
-    Showcase_2,
     Marketing_1,
     Marketing_2,
     Navigation_1,
