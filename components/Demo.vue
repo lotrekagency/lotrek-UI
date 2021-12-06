@@ -247,7 +247,7 @@
             <span class="core__block__title">
               <code>Slider_2.vue</code> Slider block n.2
             </span>
-            
+            <Slider_2 />
           </div>
           <div class="core__block">
             <span class="core__block__title">
@@ -578,6 +578,7 @@ import Content_2 from '~/components/content/Content_2.vue';
 import Content_3 from '~/components/content/Content_3.vue';
 
 import Slider_1 from '~/components/slider/Slider_1.vue';
+import Slider_2 from '~/components/slider/Slider_2.vue';
 
 import Form_1 from '~/components/form/Form_1.vue';
 import Form_2 from '~/components/form/Form_2.vue';
@@ -599,6 +600,7 @@ export default {
     Content_2,
     Content_3,
     Slider_1,
+    Slider_2,
     Form_1,
     Form_2
   },

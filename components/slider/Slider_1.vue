@@ -10,7 +10,7 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           Fugit et sequi totam praesentium quibusdam exercitationem debitis in nam! Maxime, incidunt!
         </p>
-        <a href="" class="button">Click me</a>
+        <a href="#" class="button">Button</a>
       </div><!--/slide - 0 -->
 
       <div class="slider__core__slide" data-slide="1">
@@ -20,7 +20,7 @@
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
-        <a href="" class="button">Click me</a>
+        <a href="#" class="button">Button</a>
       </div><!--/slide - 1 -->
 
       <div class="slider__core__slide" data-slide="2">
@@ -30,7 +30,7 @@
         <p>
           Fugit et sequi totam praesentium quibusdam exercitationem debitis in nam! Maxime, incidunt!
         </p>
-        <a href="" class="button">Click me</a>
+        <a href="#" class="button">Button</a>
       </div><!--/slide - 2 -->
 
       <div class="slider__nav">

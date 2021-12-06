@@ -97,7 +97,7 @@ export default {
           e.preventDefault();
 
           let elementNum = element.dataset.presub;
-          let deviceWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width
+          let deviceWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
           if(element.classList.contains("active")) {
             //If the user clicks on an already active item
@@ -133,7 +133,7 @@ export default {
         context.querySelector(".nav__sub.active").classList.remove("active");
         context.querySelector(".nav__sub__item.active").classList.remove("active");
         context.querySelector(".nav__core__link--sub.active").classList.remove("active");
-        context.querySelector('.nav__sub').style.minHeight = 0+'px'
+        context.querySelector('.nav__sub').style.minHeight = 0+'px';
       })
 
     }
