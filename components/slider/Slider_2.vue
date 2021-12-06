@@ -110,7 +110,7 @@ export default {
         if(currentSlide == 0) {
           return false;
         } else {
-          offset = (context.querySelector(".slider__carousel__item").clientWidth + 36) * (currentSlide - 1);
+          offset = (context.querySelector(".slider__carousel__item").clientWidth + 32) * (currentSlide - 1);
         context.querySelector(".slider__carousel__item.active").classList.remove("active");
         e.target.classList.add("active");
         }
@@ -139,7 +139,7 @@ export default {
         } else {
           context.querySelector(".slider__carousel__item.active").classList.remove("active");
           e.target.classList.add("active");
-          offset = (context.querySelector(".slider__carousel__item").clientWidth + 36) * (currentSlide + 1);
+          offset = (context.querySelector(".slider__carousel__item").clientWidth + 32) * (currentSlide + 1);
         }
         context.querySelector(".slider__carousel__list").style.transform = "translateX(-"+offset+"px)";
         this.querySelectorAll(".slider__carousel__item")[currentSlide + 1].classList.add("active");
