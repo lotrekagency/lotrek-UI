@@ -897,8 +897,6 @@ export default {
   },
   mounted: function() {
 
-    Prism.highlightAll();
-
     if(document.querySelector('.sider') && document.querySelector('.core')) {
 
       // Sidebar's logic, mostly clicking & menu management
@@ -956,7 +954,8 @@ export default {
           let rawCode = element.parentElement.querySelector(".core__block__inner").innerHTML;
           rawCode.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
           element.parentElement.querySelector(".core__code pre code").innerText = rawCode;
-          element.parentElement.querySelector(".core__code").classList.add("active")
+          element.parentElement.querySelector(".core__code").classList.add("active");
+          Prism.highlightAll();
         })
       });
     }
