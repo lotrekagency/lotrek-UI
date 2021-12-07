@@ -163,128 +163,331 @@
               <img src="../static/assets/images/Slider_3 Icon.png" alt="" class="core__categ__icon">
             </div><!--/row-->
           </div>
-        </div>
+        </div><!--/core--default--view-->
 
         <div class="core__categ" id="ccat-0">
           <div class="core__block">
             <span class="core__block__title">
-              <code>Hero_1.vue</code> Hero block n.1
+              <code class="core__block__label">Hero_1.vue</code> Hero block n.1
             </span>
-            <Hero_1 />
+            <div class="core__block__inner">
+              <Hero_1 />
+            </div>
+            <span class="core__showcode">Show code</span>
+            <div class="core__code">
+              <pre>
+                <code class="language-markup">
+
+                </code>
+              </pre>
+              <!--span class="core__toclipboard">Copy code</span-->
+            </div>
           </div>
           <div class="core__block">
             <span class="core__block__title">
-              <code>Hero_2.vue</code> Hero block n.2
+              <code class="core__block__label">Hero_2.vue</code> Hero block n.2
             </span>
-            <Hero_2 />
+            <div class="core__block__inner">
+              <Hero_2 />
+            </div>
+            <span class="core__showcode">Show code</span>
+            <div class="core__code">
+              <pre>
+                <code class="language-markup">
+
+                </code>
+              </pre>
+              <!--span class="core__toclipboard">Copy code</span-->
+            </div>
+            
           </div>
           <div class="core__block">
             <span class="core__block__title">
-              <code>Hero_3.vue</code> Hero block n.3
+              <code class="core__block__label">Hero_3.vue</code> Hero block n.3
             </span>
-            <Hero_3 />
+            <div class="core__block__inner">
+              <Hero_3 />
+            </div>
+            <span class="core__showcode">Show code</span>
+            <div class="core__code">
+              <pre>
+                <code class="language-markup">
+
+                </code>
+              </pre>
+              <!--span class="core__toclipboard">Copy code</span-->
+            </div>
+            
           </div>
         </div><!--/core__categ-->
 
         <div class="core__categ" id="ccat-1">
           <div class="core__block">
             <span class="core__block__title">
-              <code>Navigation_1.vue</code> Navigation block n.1 - Simple navbar
+              <code class="core__block__label">Navigation_1.vue</code> Navigation block n.1 - Simple navbar
             </span>
-            <Navigation_1 />
+            <div class="core__block__inner">
+              <Navigation_1 />
+            </div>
+            <span class="core__showcode">Show code</span>
+            <div class="core__code">
+              <pre>
+                <code class="language-markup">
+
+                </code>
+              </pre>
+              <!--span class="core__toclipboard">Copy code</span-->
+            </div>
+            
           </div>
           <div class="core__block">
             <span class="core__block__title">
-              <code>Navigation_2.vue</code> Header block n.2 - Multiple levels navbar with megamenu
+              <code class="core__block__label">Navigation_2.vue</code> Header block n.2 - Multiple levels navbar with megamenu
             </span>
-            <Navigation_2 />
+            <div class="core__block__inner">
+              <Navigation_2 />
+            </div>
+            <span class="core__showcode">Show code</span>
+            <div class="core__code">
+              <pre>
+                <code class="language-markup">
+
+                </code>
+              </pre>
+              <!--span class="core__toclipboard">Copy code</span-->
+            </div>
+            
           </div>
         </div><!--/core__categ-->
 
         <div class="core__categ" id="ccat-2">
           <div class="core__block">
             <span class="core__block__title">
-              <code>Content_1.vue</code> Content block n.1
+              <code class="core__block__label">Content_1.vue</code> Content block n.1
             </span>
-            <Content_1 />
+            <div class="core__block__inner">
+              <Content_1 />
+            </div>
+            <span class="core__showcode">Show code</span>
+            <div class="core__code">
+              <pre>
+                <code class="language-markup">
+
+                </code>
+              </pre>
+              <!--span class="core__toclipboard">Copy code</span-->
+            </div>
+            
           </div>
           <div class="core__block">
             <span class="core__block__title">
-              <code>Content_2.vue</code> Content block n.2
+              <code class="core__block__label">Content_2.vue</code> Content block n.2
             </span>
-            <Content_2 />
+            <div class="core__block__inner">
+              <Content_2 />
+            </div>
+            <span class="core__showcode">Show code</span>
+            <div class="core__code">
+              <pre>
+                <code class="language-markup">
+
+                </code>
+              </pre>
+              <!--span class="core__toclipboard">Copy code</span-->
+            </div>
+            
           </div>
           <div class="core__block">
             <span class="core__block__title">
-              <code>Content_3.vue</code> Content block n.3 - Accordion
+              <code class="core__block__label">Content_3.vue</code> Content block n.3 - Accordion
             </span>
-            <Content_3 />
+            <div class="core__block__inner">
+              <Content_3 />
+            </div>
+            <span class="core__showcode">Show code</span>
+            <div class="core__code">
+              <pre>
+                <code class="language-markup">
+
+                </code>
+              </pre>
+              <!--span class="core__toclipboard">Copy code</span-->
+            </div>
+            
           </div>
         </div><!--/core__categ-->
 
         <div class="core__categ" id="ccat-3">
           <div class="core__block">
             <span class="core__block__title">
-              <code>Marketing_1.vue</code> Marketing block n.1
+              <code class="core__block__label">Marketing_1.vue</code> Marketing block n.1
             </span>
-            <Marketing_1 />
+            <div class="core__block__inner">
+              <Marketing_1 />
+            </div>
+            <span class="core__showcode">Show code</span>
+            <div class="core__code">
+              <pre>
+                <code class="language-markup">
+
+                </code>
+              </pre>
+              <!--span class="core__toclipboard">Copy code</span-->
+            </div>
+            
           </div>
           <div class="core__block">
             <span class="core__block__title">
-              <code>Marketing_2.vue</code> Marketing block n.2
+              <code class="core__block__label">Marketing_2.vue</code> Marketing block n.2
             </span>
-            <Marketing_2 />
+            <div class="core__block__inner">
+              <Marketing_2 />
+            </div>
+            <span class="core__showcode">Show code</span>
+            <div class="core__code">
+              <pre>
+                <code class="language-markup">
+
+                </code>
+              </pre>
+              <!--span class="core__toclipboard">Copy code</span-->
+            </div>
+            
           </div>
         </div><!--/core__categ-->
 
         <div class="core__categ" id="ccat-4">
           <div class="core__block">
             <span class="core__block__title">
-              <code>Features_1.vue</code> Features block n.1
+              <code class="core__block__label">Features_1.vue</code> Features block n.1
             </span>
-            <Features_1 />
+            <div class="core__block__inner">
+              <Features_1 />
+            </div>
+            <span class="core__showcode">Show code</span>
+            <div class="core__code">
+              <pre>
+                <code class="language-markup">
+
+                </code>
+              </pre>
+              <!--span class="core__toclipboard">Copy code</span-->
+            </div>
+            
           </div>
           <div class="core__block">
             <span class="core__block__title">
-              <code>Features_2.vue</code> Features block n.2
+              <code class="core__block__label">Features_2.vue</code> Features block n.2
             </span>
-            <Features_2 />
+            <div class="core__block__inner">
+              <Features_2 />
+            </div>
+            <span class="core__showcode">Show code</span>
+            <div class="core__code">
+              <pre>
+                <code class="language-markup">
+
+                </code>
+              </pre>
+              <!--span class="core__toclipboard">Copy code</span-->
+            </div>
+            
           </div>
         </div><!--/core__categ-->
 
         <div class="core__categ" id="ccat-5">
           <div class="core__block">
             <span class="core__block__title">
-              <code>Slider_1.vue</code> Slider block n.1
+              <code class="core__block__label">Slider_1.vue</code> Slider block n.1
             </span>
-            <Slider_1 />
+            <div class="core__block__inner">
+              <Slider_1 />
+            </div>
+            <span class="core__showcode">Show code</span>
+            <div class="core__code">
+              <pre>
+                <code class="language-markup">
+
+                </code>
+              </pre>
+              <!--span class="core__toclipboard">Copy code</span-->
+            </div>
+            
           </div>
           <div class="core__block">
             <span class="core__block__title">
-              <code>Slider_2.vue</code> Slider block n.2
+              <code class="core__block__label">Slider_2.vue</code> Slider block n.2
             </span>
-            <Slider_2 />
+            <div class="core__block__inner">
+              <Slider_2 />
+            </div>
+            <span class="core__showcode">Show code</span>
+            <div class="core__code">
+              <pre>
+                <code class="language-markup">
+
+                </code>
+              </pre>
+              <!--span class="core__toclipboard">Copy code</span-->
+            </div>
+            
           </div>
           <div class="core__block">
             <span class="core__block__title">
-              <code>Slider_3.vue</code> Slider block n.3 - Testimonial
+              <code class="core__block__label">Slider_3.vue</code> Slider block n.3 - Testimonial
             </span>
-            <Slider_3 />
+            <div class="core__block__inner">
+              <Slider_3 />
+            </div>
+            <span class="core__showcode">Show code</span>
+            <div class="core__code">
+              <pre>
+                <code class="language-markup">
+
+                </code>
+              </pre>
+              <!--span class="core__toclipboard">Copy code</span-->
+            </div>
+            
           </div>
         </div><!--/core__categ-->
 
         <div class="core__categ" id="ccat-6">
           <div class="core__block">
             <span class="core__block__title">
-              <code>Form_1.vue</code> Form block n.1
+              <code class="core__block__label">Form_1.vue</code> Form block n.1
             </span>
-            <Form_1 />
+            <div class="core__block__inner">
+              <Form_1 />
+            </div>
+            <span class="core__showcode">Show code</span>
+            <div class="core__code">
+              <pre>
+                <code class="language-markup">
+
+                </code>
+              </pre>
+              <!--span class="core__toclipboard">Copy code</span-->
+            </div>
+            
           </div>
           <div class="core__block">
             <span class="core__block__title">
-              <code>Form_2.vue</code> Form block n.2
+              <code class="core__block__label">Form_2.vue</code> Form block n.2
             </span>
-            <Form_2 />
+            <div class="core__block__inner">
+              <Form_2 />
+            </div>
+            <span class="core__showcode">Show code</span>
+            <div class="core__code">
+              <pre>
+                <code class="language-markup">
+
+                </code>
+              </pre>
+              <!--span class="core__toclipboard">Copy code</span-->
+            </div>
+            
           </div>
         </div><!--/core__categ-->
 
@@ -304,16 +507,6 @@ body {
   color: black;
   overflow: hidden;
   //margin-top: 2rem;
-}
-code {
-  font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
-  background: #0F7EE6;
-  color: white;
-  font-size: 0.55em;
-  font-weight: 500;
-  line-height: 1;
-  padding: 0 0.25rem;
-  vertical-align: middle;
 }
 </style>
 
@@ -537,6 +730,33 @@ code {
   z-index: 1;
   background: #f7f7f7;
 
+  &__code {
+    text-align: initial;
+    font-size: 10px;
+    overflow: hidden;
+    position: relative;
+    display: none;
+
+    .language-markup {
+      margin: 0;
+      white-space: initial;
+    }
+    &.active {
+      display: block;
+    }
+  }
+  &__showcode {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #0F7EE6;
+    color: var(--white);
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+  }
   &__inner {
     padding: 2rem 2rem 4rem;
   }
@@ -554,11 +774,17 @@ code {
       bottom: 100%;
       left: 0%;
       margin-block: 0.25rem;
-
-      code {
-        vertical-align: initial;
-        font-size: initial;
-      }
+    }
+    &__label {
+      font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
+      background: #0F7EE6;
+      color: white;
+      font-size: 0.55em;
+      font-weight: 500;
+      line-height: 1;
+      padding: 0 0.25rem;
+      vertical-align: initial;
+      font-size: initial;
     }
   }
   &__categ {
@@ -620,6 +846,7 @@ code {
 </style>
 
 <script>
+import Prism from '~/plugins/prism';
 
 import Hero_1 from '~/components/hero/Hero_1.vue';
 import Hero_2 from '~/components/hero/Hero_2.vue';
@@ -670,6 +897,8 @@ export default {
   },
   mounted: function() {
 
+    Prism.highlightAll();
+
     if(document.querySelector('.sider') && document.querySelector('.core')) {
 
       // Sidebar's logic, mostly clicking & menu management
@@ -719,6 +948,46 @@ export default {
         document.querySelector('.sider').classList.toggle('active');
       })
     }
+
+    //Show code & copy code
+    if(document.querySelector(".core__showcode")) {
+      document.querySelectorAll(".core__showcode").forEach(element => {
+        element.addEventListener("click", (e) => {
+          let rawCode = element.parentElement.querySelector(".core__block__inner").innerHTML;
+          rawCode.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+          element.parentElement.querySelector(".core__code pre code").innerText = rawCode;
+          element.parentElement.querySelector(".core__code").classList.add("active")
+        })
+      });
+    }
+
+  /* cant get it working
+    document.querySelectorAll(".core__toclipboard").forEach(element => {
+      element.addEventListener("click", (e) => {
+        let codeH = element.parentElement.querySelector(".core__code pre code").textContent;
+        console.log("clipboard now")
+        console.log(codeH)
+        let textArea = document.createElement('textarea');
+        textArea.classList.add("hiddentarea");
+        textArea.textContent = codeH;
+        document.body.append(textArea);
+        
+        textArea.focus();
+        textArea.select();
+        textArea.setSelectionRange(0, 99999);
+
+        navigator.clipboard.writeText(document.querySelector(".hiddentarea").value).then(() => {
+          // Success!
+          console.log("copied correctly")
+        })
+        .catch(err => {
+          console.log('Something went wrong', err);
+        });
+
+        alert("Copied the text: " + textArea.value);
+      })
+    });
+    */
 
     //element.id.split('bcat-')[1]
 
