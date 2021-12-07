@@ -564,7 +564,7 @@ body {
   overflow-y: auto;
   z-index: 10;
   background: var(--white);
-  box-shadow: 2px 0px 4px rgba(0,0,0, 0.1);
+  box-shadow: 2px 2px 4px rgba(0,0,0, 0.1);
   transition: all ease-in .25s;
 
   @media (max-width: 768px) {
@@ -636,13 +636,13 @@ body {
     &__item {
       text-align: left;
       margin: 0.5rem 0;
-      transition: all ease-in .25s;
+      transition: all ease-in .125s;
       border-radius: 0.25rem;
-      box-shadow: -2px -2px 4px var(--grey), 2px 2px 4px rgba(0,0,0, 0.1);
+      box-shadow: inset 2px 2px 4px rgba(240, 240, 240,0.5), 2px 2px 4px rgba(0,0,0, 0.1);
       overflow: hidden;
 
       &:hover {
-        box-shadow: 0px 0px 8px var(--grey),0px 0px 8px rgba(0,0,0,.1);
+        box-shadow: inset 1px 1px 2px rgba(240, 240, 240,0.5), 1px 1px 2px rgba(0,0,0, 0.1);
       }
       &.active {
         .sider__categ__item__head {
@@ -810,9 +810,9 @@ body {
       padding: 0.5rem;
       margin-bottom: 1rem;
       text-align: center;
-      background: var(--white);
       border-radius: 0.25rem;
-      box-shadow: -2px -2px 4px var(--grey), 2px 2px 4px rgba(0,0,0, 0.1);
+      background-color: var(--white);
+      box-shadow: inset 2px 2px 4px rgba(240, 240, 240,0.5), 2px 2px 4px rgba(0,0,0, 0.1);
 
       @media (min-width: 769px) {
         flex-wrap: nowrap;
