@@ -1,7 +1,7 @@
 # Lotrek UI
 Lotrek UI is a collection of ready-to-use UI components and micro layouts written in simple HTML & CSS to help you build awesome stuff faster.
 
-Each block is responsive, tested and easy to customize to fit your projects.
+Each block is easy to customize, tested and responsive.
 
 To check the demo/docs page please visit:
 
@@ -79,6 +79,7 @@ Once you're done with your work, submit a pull request.
 ### Built with
 NuxtJS, Vue, rollup.js and some good old HTML, CSS and JS.
 Resetting CSS with a slightly different version of normalize.css.
+PrismJS for code highlighting.
 
 ### Copyright and license
 lotrekagency/lotrek-UI is licensed under the MIT License
