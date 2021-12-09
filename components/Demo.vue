@@ -846,6 +846,7 @@ body {
 </style>
 
 <script>
+const prettier = require("prettier");
 import Prism from '~/plugins/prism';
 
 import Hero_1 from '~/components/hero/Hero_1.vue';
@@ -953,6 +954,7 @@ export default {
         element.addEventListener("click", (e) => {
           let rawCode = element.parentElement.querySelector(".core__block__inner").innerHTML;
           rawCode.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+          rawCode = prettier.format(rawCode, { semi: false, parser: "html" });
           element.parentElement.querySelector(".core__code pre code").innerText = rawCode;
           element.parentElement.querySelector(".core__code").classList.add("active");
           Prism.highlightAll();
