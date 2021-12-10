@@ -846,8 +846,11 @@ body {
 </style>
 
 <script>
-const prettier = require("prettier");
+//const babel = require("@babel/parser");
+
 import Prism from '~/plugins/prism';
+import prettier from '~/plugins/prettier';
+import babel from '~/plugins/babel';
 
 import Hero_1 from '~/components/hero/Hero_1.vue';
 import Hero_2 from '~/components/hero/Hero_2.vue';
@@ -954,7 +957,9 @@ export default {
         element.addEventListener("click", (e) => {
           let rawCode = element.parentElement.querySelector(".core__block__inner").innerHTML;
           rawCode.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-          rawCode = prettier.format(rawCode, { semi: false, parser: "html" });
+          //rawCode = prettier.format(rawCode, { semi: false, parser: "html", plugins: [htmlParser] });
+          console.log(babel)
+          rawCode = prettier.format('', { semi: false, parser: "babel", plugins: [babel] });
           element.parentElement.querySelector(".core__code pre code").innerText = rawCode;
           element.parentElement.querySelector(".core__code").classList.add("active");
           Prism.highlightAll();

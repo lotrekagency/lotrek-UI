@@ -39,7 +39,9 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { src: '~/plugins/prism' }
+    { src: '~/plugins/prism' },
+    { src: '~/plugins/prettier' },
+    { src: '~/plugins/babel' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

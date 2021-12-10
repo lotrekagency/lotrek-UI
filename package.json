@@ -17,6 +17,8 @@
     "prismjs": "^1.25.0"
   },
   "devDependencies": {
+    "@babel/parser": "^7.16.4",
+    "angular-html-parser": "^1.8.0",
     "node-sass": "^4.14.1",
     "prettier": "2.5.1",
     "sass-loader": "^10.0.3"
