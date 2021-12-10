@@ -733,7 +733,6 @@ body {
   &__code {
     text-align: initial;
     font-size: 10px;
-    overflow: hidden;
     position: relative;
     display: none;
 
@@ -752,6 +751,19 @@ body {
     right: 0;
     background: #0F7EE6;
     color: var(--white);
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+  }
+  &__toclipboard {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 1px solid #0F7EE6;
+    color: #0F7EE6;
+    background-color: var(--white);
     border-bottom-left-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
     padding: 0.25rem 0.5rem;
