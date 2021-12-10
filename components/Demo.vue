@@ -180,7 +180,7 @@
 
                 </code>
               </pre>
-              <!--span class="core__toclipboard">Copy code</span-->
+              <span class="core__toclipboard">Copy code</span>
             </div>
           </div>
           <div class="core__block">
@@ -197,7 +197,7 @@
 
                 </code>
               </pre>
-              <!--span class="core__toclipboard">Copy code</span-->
+              <span class="core__toclipboard">Copy code</span>
             </div>
             
           </div>
@@ -215,7 +215,7 @@
 
                 </code>
               </pre>
-              <!--span class="core__toclipboard">Copy code</span-->
+              <span class="core__toclipboard">Copy code</span>
             </div>
             
           </div>
@@ -236,7 +236,7 @@
 
                 </code>
               </pre>
-              <!--span class="core__toclipboard">Copy code</span-->
+              <span class="core__toclipboard">Copy code</span>
             </div>
             
           </div>
@@ -254,7 +254,7 @@
 
                 </code>
               </pre>
-              <!--span class="core__toclipboard">Copy code</span-->
+              <span class="core__toclipboard">Copy code</span>
             </div>
             
           </div>
@@ -275,7 +275,7 @@
 
                 </code>
               </pre>
-              <!--span class="core__toclipboard">Copy code</span-->
+              <span class="core__toclipboard">Copy code</span>
             </div>
             
           </div>
@@ -293,7 +293,7 @@
 
                 </code>
               </pre>
-              <!--span class="core__toclipboard">Copy code</span-->
+              <span class="core__toclipboard">Copy code</span>
             </div>
             
           </div>
@@ -311,7 +311,7 @@
 
                 </code>
               </pre>
-              <!--span class="core__toclipboard">Copy code</span-->
+              <span class="core__toclipboard">Copy code</span>
             </div>
             
           </div>
@@ -332,7 +332,7 @@
 
                 </code>
               </pre>
-              <!--span class="core__toclipboard">Copy code</span-->
+              <span class="core__toclipboard">Copy code</span>
             </div>
             
           </div>
@@ -350,7 +350,7 @@
 
                 </code>
               </pre>
-              <!--span class="core__toclipboard">Copy code</span-->
+              <span class="core__toclipboard">Copy code</span>
             </div>
             
           </div>
@@ -371,7 +371,7 @@
 
                 </code>
               </pre>
-              <!--span class="core__toclipboard">Copy code</span-->
+              <span class="core__toclipboard">Copy code</span>
             </div>
             
           </div>
@@ -389,7 +389,7 @@
 
                 </code>
               </pre>
-              <!--span class="core__toclipboard">Copy code</span-->
+              <span class="core__toclipboard">Copy code</span>
             </div>
             
           </div>
@@ -410,7 +410,7 @@
 
                 </code>
               </pre>
-              <!--span class="core__toclipboard">Copy code</span-->
+              <span class="core__toclipboard">Copy code</span>
             </div>
             
           </div>
@@ -428,7 +428,7 @@
 
                 </code>
               </pre>
-              <!--span class="core__toclipboard">Copy code</span-->
+              <span class="core__toclipboard">Copy code</span>
             </div>
             
           </div>
@@ -446,7 +446,7 @@
 
                 </code>
               </pre>
-              <!--span class="core__toclipboard">Copy code</span-->
+              <span class="core__toclipboard">Copy code</span>
             </div>
             
           </div>
@@ -467,7 +467,7 @@
 
                 </code>
               </pre>
-              <!--span class="core__toclipboard">Copy code</span-->
+              <span class="core__toclipboard">Copy code</span>
             </div>
             
           </div>
@@ -485,7 +485,7 @@
 
                 </code>
               </pre>
-              <!--span class="core__toclipboard">Copy code</span-->
+              <span class="core__toclipboard">Copy code</span>
             </div>
             
           </div>
@@ -960,33 +960,21 @@ export default {
       });
     }
 
-  /* cant get it working
     document.querySelectorAll(".core__toclipboard").forEach(element => {
       element.addEventListener("click", (e) => {
         let codeH = element.parentElement.querySelector(".core__code pre code").textContent;
-        console.log("clipboard now")
-        console.log(codeH)
-        let textArea = document.createElement('textarea');
-        textArea.classList.add("hiddentarea");
-        textArea.textContent = codeH;
-        document.body.append(textArea);
-        
-        textArea.focus();
-        textArea.select();
-        textArea.setSelectionRange(0, 99999);
 
-        navigator.clipboard.writeText(document.querySelector(".hiddentarea").value).then(() => {
-          // Success!
-          console.log("copied correctly")
-        })
-        .catch(err => {
-          console.log('Something went wrong', err);
-        });
+        var range = document.createRange();
+        range.selectNode(element.parentElement.querySelector(".core__code pre code"));
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(range);
+        console.log(range)
+        document.execCommand("copy");
+        element.textContent = 'Copied';
 
-        alert("Copied the text: " + textArea.value);
+        setTimeout( time => element.textContent = 'Copy code' , 5000);
       })
     });
-    */
 
     //element.id.split('bcat-')[1]
 
