@@ -8,7 +8,7 @@
     <div class="sider demo__sider">
       <div class="sider__head">
         <h1 class="sider__head__title">
-          Lotrek UI 
+          Lotrek <span class="sider__head__special">UI</span>
         </h1>
         <h2 class="sider__head__claim">A collection of ready-to-use  UI components written in HTML & CSS</h2>
         <p class="sider__head__text">
@@ -126,41 +126,41 @@
           <div class="core__categ__grid">
             <div class="core__categ__row">
               <span class="core__categ__mintitle">Hero blocks</span>
-              <img src="../static/assets/images/Hero_1 Icon.png" alt="" class="core__categ__icon">
-              <img src="../static/assets/images/Hero_2 Icon.png" alt="" class="core__categ__icon">
-              <img src="../static/assets/images/Hero_3 Icon.png" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Hero_1 Icon.svg" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Hero_2 Icon.svg" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Hero_3 Icon.svg" alt="" class="core__categ__icon">
             </div><!--/row-->
             <div class="core__categ__row">
               <span class="core__categ__mintitle">Navigation blocks</span>
-              <img src="../static/assets/images/Navigation_1 Icon.png" alt="" class="core__categ__icon">
-              <img src="../static/assets/images/Navigation_2 Icon.png" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Navigation_1 Icon.svg" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Navigation_2 Icon.svg" alt="" class="core__categ__icon">
             </div><!--/row-->
             <div class="core__categ__row">
               <span class="core__categ__mintitle">Content blocks</span>
-              <img src="../static/assets/images/Content_1 Icon.png" alt="" class="core__categ__icon">
-              <img src="../static/assets/images/Content_2 Icon.png" alt="" class="core__categ__icon">
-              <img src="../static/assets/images/Content_3 Icon.png" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Content_1 Icon.svg" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Content_2 Icon.svg" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Content_3 Icon.svg" alt="" class="core__categ__icon">
             </div><!--/row-->
             <div class="core__categ__row">
               <span class="core__categ__mintitle">Marketing blocks</span>
-              <img src="../static/assets/images/Marketing_1 Icon.png" alt="" class="core__categ__icon">
-              <img src="../static/assets/images/Marketing_2 Icon.png" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Marketing_1 Icon.svg" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Marketing_2 Icon.svg" alt="" class="core__categ__icon">
             </div><!--/row-->
             <div class="core__categ__row">
               <span class="core__categ__mintitle">Feature blocks</span>
-              <img src="../static/assets/images/Feature_1 Icon.png" alt="" class="core__categ__icon">
-              <img src="../static/assets/images/Feature_2 Icon.png" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Feature_1 Icon.svg" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Feature_2 Icon.svg" alt="" class="core__categ__icon">
             </div><!--/row-->
             <div class="core__categ__row">
               <span class="core__categ__mintitle">Form blocks</span>
-              <img src="../static/assets/images/Form_1 Icon.png" alt="" class="core__categ__icon">
-              <img src="../static/assets/images/Form_2 Icon.png" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Form_1 Icon.svg" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Form_2 Icon.svg" alt="" class="core__categ__icon">
             </div><!--/row-->
             <div class="core__categ__row">
               <span class="core__categ__mintitle">Slider blocks</span>
-              <img src="../static/assets/images/Slider_1 Icon.png" alt="" class="core__categ__icon">
-              <img src="../static/assets/images/Slider_2 Icon.png" alt="" class="core__categ__icon">
-              <img src="../static/assets/images/Slider_3 Icon.png" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Slider_1 Icon.svg" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Slider_2 Icon.svg" alt="" class="core__categ__icon">
+              <img src="../static/assets/images/Slider_3 Icon.svg" alt="" class="core__categ__icon">
             </div><!--/row-->
           </div>
         </div><!--/core--default--view-->
@@ -586,6 +586,9 @@ body {
       font-size: 1.4rem;
       line-height: 1;
       margin: 0 0 0.5rem;
+    }
+    &__special {
+      color: #0f7ee6;
     }
     &__claim {
       display: block;
