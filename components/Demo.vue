@@ -8,7 +8,7 @@
     <div class="sider demo__sider">
       <div class="sider__head">
         <h1 class="sider__head__title">
-          Lotrek <span class="sider__head__special">UI</span>
+          <img src="../static/assets/images/lotrek-ui-logo.svg" alt="Lotrek UI" class="sider__head__icon">
         </h1>
         <h2 class="sider__head__claim">A collection of ready-to-use  UI components written in HTML & CSS</h2>
         <p class="sider__head__text">
@@ -582,6 +582,13 @@ body {
     margin: 0 0 1rem;
     border-bottom: 1px solid var(--grey);
 
+    &__icon {
+      object-fit: contain;
+      width: 100px;
+      height: auto;
+      object-position: center;
+      box-shadow: 2px 2px 4px rgba(0,0,0, 0.1);
+    }
     &__title {
       font-size: 1.4rem;
       line-height: 1;
@@ -847,7 +854,7 @@ body {
       }
     }
     &__icon {
-      width: 85px;
+      width: 60px;
       height: auto;
       object-fit: contain;
       margin: 1rem;
