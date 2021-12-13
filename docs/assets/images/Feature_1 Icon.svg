@@ -1,16 +1,13 @@
 <svg width="200" height="150" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="200" height="150" fill="white"/>
 <g filter="url(#filter0_d_85_1676)">
-<rect x="14" y="75" width="45" height="45" fill="url(#paint0_linear_85_1676)" shape-rendering="crispEdges"/>
-<rect x="15" y="76" width="43" height="43" stroke="#0F7EE6" stroke-width="2" shape-rendering="crispEdges"/>
+<rect x="14" y="75" width="45" height="45" fill="url(#paint0_linear_85_1676)"/>
 </g>
 <g filter="url(#filter1_d_85_1676)">
-<rect x="77" y="75" width="45" height="45" fill="white"/>
-<rect x="78" y="76" width="43" height="43" stroke="#0F7EE6" stroke-width="2"/>
+<rect x="77" y="75" width="45" height="45" fill="url(#paint1_linear_85_1676)"/>
 </g>
 <g filter="url(#filter2_d_85_1676)">
-<rect x="140" y="75" width="45" height="45" fill="white"/>
-<rect x="141" y="76" width="43" height="43" stroke="#0F7EE6" stroke-width="2"/>
+<rect x="140" y="75" width="45" height="45" fill="url(#paint2_linear_85_1676)"/>
 </g>
 <path d="M95.6055 50.6094H78.9258L75.1797 61H69.7656L84.9688 21.1875H89.5625L104.793 61H99.4062L95.6055 50.6094ZM80.5117 46.2891H94.0469L87.2656 27.668L80.5117 46.2891Z" fill="black"/>
 <path d="M128.219 49.6348C128.219 53.1868 127.402 56.0443 125.77 58.207C124.137 60.3555 121.945 61.4297 119.195 61.4297C116.259 61.4297 113.989 60.3913 112.385 58.3145L112.191 61H108.539V28H112.514V40.3105C114.118 38.3197 116.331 37.3242 119.152 37.3242C121.974 37.3242 124.187 38.3913 125.791 40.5254C127.41 42.6595 128.219 45.5814 128.219 49.291V49.6348ZM124.244 49.1836C124.244 46.4766 123.721 44.3854 122.676 42.9102C121.63 41.4349 120.126 40.6973 118.164 40.6973C115.543 40.6973 113.66 41.9147 112.514 44.3496V54.4043C113.731 56.8392 115.629 58.0566 118.207 58.0566C120.112 58.0566 121.594 57.319 122.654 55.8438C123.714 54.3685 124.244 52.1484 124.244 49.1836Z" fill="#0F7EE6"/>
@@ -46,8 +43,16 @@
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_85_1676" result="shape"/>
 </filter>
 <linearGradient id="paint0_linear_85_1676" x1="36.5" y1="75" x2="36.5" y2="120" gradientUnits="userSpaceOnUse">
-<stop stop-color="white"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
+<stop stop-color="#57A5ED"/>
+<stop offset="1" stop-color="#0F7EE6"/>
+</linearGradient>
+<linearGradient id="paint1_linear_85_1676" x1="99.5" y1="75" x2="99.5" y2="120" gradientUnits="userSpaceOnUse">
+<stop stop-color="#57A5ED"/>
+<stop offset="1" stop-color="#0F7EE6"/>
+</linearGradient>
+<linearGradient id="paint2_linear_85_1676" x1="162.5" y1="75" x2="162.5" y2="120" gradientUnits="userSpaceOnUse">
+<stop stop-color="#57A5ED"/>
+<stop offset="1" stop-color="#0F7EE6"/>
 </linearGradient>
 </defs>
 </svg>

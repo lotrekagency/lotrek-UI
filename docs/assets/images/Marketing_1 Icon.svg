@@ -7,7 +7,7 @@
 <rect x="26" y="92" width="148" height="23" stroke="#0F7EE6" stroke-width="2"/>
 </g>
 <path d="M122 115V91" stroke="#0F7EE6"/>
-<rect x="122" y="92" width="52" height="23" fill="#0F7EE6"/>
+<rect x="122" y="92" width="52" height="23" fill="url(#paint0_linear_85_1643)"/>
 <path d="M158 104L148 98.2265V109.774L158 104ZM138 105H149V103H138V105Z" fill="white"/>
 <defs>
 <filter id="filter0_d_85_1643" x="25" y="91" width="154" height="29" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
@@ -20,5 +20,9 @@
 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_85_1643"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_85_1643" result="shape"/>
 </filter>
+<linearGradient id="paint0_linear_85_1643" x1="148" y1="92" x2="148" y2="115" gradientUnits="userSpaceOnUse">
+<stop stop-color="#57A5ED"/>
+<stop offset="1" stop-color="#0F7EE6"/>
+</linearGradient>
 </defs>
 </svg>

@@ -13,11 +13,23 @@
 <rect x="58" y="38" width="80" height="100" fill="white"/>
 <path d="M95.9863 83.6094H79.3066L75.5605 94H70.1465L85.3496 54.1875H89.9434L105.174 94H99.7871L95.9863 83.6094ZM80.8926 79.2891H94.4277L87.6465 60.668L80.8926 79.2891Z" fill="black"/>
 <path d="M128.6 82.6348C128.6 86.1868 127.783 89.0443 126.15 91.207C124.518 93.3555 122.326 94.4297 119.576 94.4297C116.64 94.4297 114.37 93.3913 112.766 91.3145L112.572 94H108.92V61H112.895V73.3105C114.499 71.3197 116.712 70.3242 119.533 70.3242C122.355 70.3242 124.568 71.3913 126.172 73.5254C127.79 75.6595 128.6 78.5814 128.6 82.291V82.6348ZM124.625 82.1836C124.625 79.4766 124.102 77.3854 123.057 75.9102C122.011 74.4349 120.507 73.6973 118.545 73.6973C115.924 73.6973 114.04 74.9147 112.895 77.3496V87.4043C114.112 89.8392 116.01 91.0566 118.588 91.0566C120.493 91.0566 121.975 90.319 123.035 88.8438C124.095 87.3685 124.625 85.1484 124.625 82.1836Z" fill="#0F7EE6"/>
-<circle cx="72" cy="123" r="10" fill="#0F7EE6"/>
-<circle cx="98" cy="123" r="9" fill="white" stroke="#0F7EE6" stroke-width="2"/>
-<circle cx="124" cy="123" r="9" fill="white" stroke="#0F7EE6" stroke-width="2"/>
+<circle cx="72" cy="123" r="10" fill="url(#paint0_linear_85_1770)"/>
+<circle cx="98" cy="123" r="9" fill="white" stroke="url(#paint1_linear_85_1770)" stroke-width="2"/>
+<circle cx="124" cy="123" r="9" fill="white" stroke="url(#paint2_linear_85_1770)" stroke-width="2"/>
 </g>
 <defs>
+<linearGradient id="paint0_linear_85_1770" x1="72" y1="113" x2="72" y2="133" gradientUnits="userSpaceOnUse">
+<stop stop-color="#57A5ED"/>
+<stop offset="1" stop-color="#0F7EE6"/>
+</linearGradient>
+<linearGradient id="paint1_linear_85_1770" x1="98" y1="113" x2="98" y2="133" gradientUnits="userSpaceOnUse">
+<stop stop-color="#57A5ED"/>
+<stop offset="1" stop-color="#0F7EE6"/>
+</linearGradient>
+<linearGradient id="paint2_linear_85_1770" x1="124" y1="113" x2="124" y2="133" gradientUnits="userSpaceOnUse">
+<stop stop-color="#57A5ED"/>
+<stop offset="1" stop-color="#0F7EE6"/>
+</linearGradient>
 <clipPath id="clip0_85_1770">
 <rect width="200" height="150" fill="white"/>
 </clipPath>
