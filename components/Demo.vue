@@ -742,13 +742,13 @@ body {
 
   &__code {
     text-align: initial;
-    font-size: 10px;
+    font-size: 12px;
     position: relative;
     display: none;
 
     .language-markup {
       margin: 0;
-      white-space: initial;
+      //white-space: initial;
     }
     &.active {
       display: block;
@@ -869,6 +869,8 @@ body {
 
 <script>
 import Prism from '~/plugins/prism';
+import normalizer from '~/plugins/normalizer';
+var beautify_html = require('js-beautify').html;
 
 import Hero_1 from '~/components/hero/Hero_1.vue';
 import Hero_2 from '~/components/hero/Hero_2.vue';
@@ -973,11 +975,44 @@ export default {
     if(document.querySelector(".core__showcode")) {
       document.querySelectorAll(".core__showcode").forEach(element => {
         element.addEventListener("click", (e) => {
-          let rawCode = element.parentElement.querySelector(".core__block__inner").innerHTML;
-          rawCode.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-          element.parentElement.querySelector(".core__code pre code").innerText = rawCode;
+
+          //creating a ghost element and cleaning it from stuff such as image sources
+          let ghostElement = document.createElement("div");
+          ghostElement = element.parentElement.querySelector(".core__block__inner").cloneNode(true);
+          if(ghostElement.querySelector("img")) {
+            ghostElement.querySelectorAll("img").forEach(element => {
+              element.src = "#";
+            });
+          }
+          //cleaning the ghost element from data-v
+          let ghostDataset = ghostElement.querySelector("div").dataset;
+          ghostDataset = ' data-'+Object.keys(ghostDataset)[0]+'=""';
+          ghostElement = ghostElement.innerHTML.replace(ghostDataset, '');
+
+          //let rawCode = element.parentElement.querySelector(".core__block__inner").innerHTML;
+
+          //escaping the html code and then "beautifying" it
+          ghostElement.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+          ghostElement = beautify_html(ghostElement);
+          
+
+          //Prism's normalizer plugin to handle indentation and such
+          var nw = new normalizer({
+            'left-trim': true,
+            'right-trim': true,
+            'break-lines': 80,
+            'indent': 2,
+            'remove-initial-line-feed': false,
+            'tabs-to-spaces': 2,
+            'spaces-to-tabs': 2
+          });
+          nw = Prism.plugins.NormalizeWhitespace;
+          
+          element.parentElement.querySelector(".core__code pre code").innerText = ghostElement;
           element.parentElement.querySelector(".core__code").classList.add("active");
-          Prism.highlightAll();
+
+          //disabled prism highlight because it's breaking the white space and formatting (dont know why!)
+          //Prism.highlightAll();
         })
       });
     }
