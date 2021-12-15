@@ -750,6 +750,9 @@ body {
       margin: 0;
       //white-space: initial;
     }
+    pre {
+      white-space: inherit;
+    }
     &.active {
       display: block;
     }
