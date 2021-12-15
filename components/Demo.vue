@@ -998,11 +998,11 @@ export default {
 
           //Prism's normalizer plugin to handle indentation and such
           var nw = new normalizer({
-            'left-trim': true,
-            'right-trim': true,
+            'left-trim': false,
+            'right-trim': false,
             'break-lines': 80,
             'indent': 2,
-            'remove-initial-line-feed': false,
+            'remove-initial-line-feed': true,
             'tabs-to-spaces': 2,
             'spaces-to-tabs': 2
           });
