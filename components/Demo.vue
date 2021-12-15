@@ -175,7 +175,7 @@
             </div>
             <span class="core__showcode">Show code</span>
             <div class="core__code">
-              <pre>
+              <pre class="language-markup">
                 <code class="language-markup">
 
                 </code>
@@ -192,7 +192,7 @@
             </div>
             <span class="core__showcode">Show code</span>
             <div class="core__code">
-              <pre>
+              <pre class="language-markup">
                 <code class="language-markup">
 
                 </code>
@@ -210,7 +210,7 @@
             </div>
             <span class="core__showcode">Show code</span>
             <div class="core__code">
-              <pre>
+              <pre class="language-markup">
                 <code class="language-markup">
 
                 </code>
@@ -231,7 +231,7 @@
             </div>
             <span class="core__showcode">Show code</span>
             <div class="core__code">
-              <pre>
+              <pre class="language-markup">
                 <code class="language-markup">
 
                 </code>
@@ -249,7 +249,7 @@
             </div>
             <span class="core__showcode">Show code</span>
             <div class="core__code">
-              <pre>
+              <pre class="language-markup">
                 <code class="language-markup">
 
                 </code>
@@ -270,7 +270,7 @@
             </div>
             <span class="core__showcode">Show code</span>
             <div class="core__code">
-              <pre>
+              <pre class="language-markup">
                 <code class="language-markup">
 
                 </code>
@@ -288,7 +288,7 @@
             </div>
             <span class="core__showcode">Show code</span>
             <div class="core__code">
-              <pre>
+              <pre class="language-markup">
                 <code class="language-markup">
 
                 </code>
@@ -306,7 +306,7 @@
             </div>
             <span class="core__showcode">Show code</span>
             <div class="core__code">
-              <pre>
+              <pre class="language-markup">
                 <code class="language-markup">
 
                 </code>
@@ -327,7 +327,7 @@
             </div>
             <span class="core__showcode">Show code</span>
             <div class="core__code">
-              <pre>
+              <pre class="language-markup">
                 <code class="language-markup">
 
                 </code>
@@ -345,7 +345,7 @@
             </div>
             <span class="core__showcode">Show code</span>
             <div class="core__code">
-              <pre>
+              <pre class="language-markup">
                 <code class="language-markup">
 
                 </code>
@@ -366,7 +366,7 @@
             </div>
             <span class="core__showcode">Show code</span>
             <div class="core__code">
-              <pre>
+              <pre class="language-markup">
                 <code class="language-markup">
 
                 </code>
@@ -384,7 +384,7 @@
             </div>
             <span class="core__showcode">Show code</span>
             <div class="core__code">
-              <pre>
+              <pre class="language-markup">
                 <code class="language-markup">
 
                 </code>
@@ -405,7 +405,7 @@
             </div>
             <span class="core__showcode">Show code</span>
             <div class="core__code">
-              <pre>
+              <pre class="language-markup">
                 <code class="language-markup">
 
                 </code>
@@ -423,7 +423,7 @@
             </div>
             <span class="core__showcode">Show code</span>
             <div class="core__code">
-              <pre>
+              <pre class="language-markup">
                 <code class="language-markup">
 
                 </code>
@@ -441,7 +441,7 @@
             </div>
             <span class="core__showcode">Show code</span>
             <div class="core__code">
-              <pre>
+              <pre class="language-markup">
                 <code class="language-markup">
 
                 </code>
@@ -462,7 +462,7 @@
             </div>
             <span class="core__showcode">Show code</span>
             <div class="core__code">
-              <pre>
+              <pre class="language-markup">
                 <code class="language-markup">
 
                 </code>
@@ -480,7 +480,7 @@
             </div>
             <span class="core__showcode">Show code</span>
             <div class="core__code">
-              <pre>
+              <pre class="language-markup">
                 <code class="language-markup">
 
                 </code>
