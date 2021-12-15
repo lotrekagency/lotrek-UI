@@ -742,7 +742,7 @@ body {
 
   &__code {
     text-align: initial;
-    font-size: 10px;
+    font-size: 12px;
     position: relative;
     display: none;
 
@@ -989,25 +989,29 @@ export default {
           ghostDataset = ' data-'+Object.keys(ghostDataset)[0]+'=""';
           ghostElement = ghostElement.innerHTML.replace(ghostDataset, '');
 
-          let rawCode = element.parentElement.querySelector(".core__block__inner").innerHTML;
+          //let rawCode = element.parentElement.querySelector(".core__block__inner").innerHTML;
+
+          //escaping the html code and then "beautifying" it
           ghostElement.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
           ghostElement = beautify_html(ghostElement);
           
-          
+
+          //Prism's normalizer plugin to handle indentation and such
           var nw = new normalizer({
             'left-trim': true,
             'right-trim': true,
             'break-lines': 80,
             'indent': 2,
             'remove-initial-line-feed': false,
-            'tabs-to-spaces': 4,
-            'spaces-to-tabs': 4
+            'tabs-to-spaces': 2,
+            'spaces-to-tabs': 2
           });
-          
           nw = Prism.plugins.NormalizeWhitespace;
           
           element.parentElement.querySelector(".core__code pre code").innerText = ghostElement;
           element.parentElement.querySelector(".core__code").classList.add("active");
+
+          //disabled prism highlight because it's breaking the white space and formatting (dont know why!)
           //Prism.highlightAll();
         })
       });
