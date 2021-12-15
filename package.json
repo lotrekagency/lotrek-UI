@@ -17,6 +17,7 @@
     "prismjs": "^1.25.0"
   },
   "devDependencies": {
+    "js-beautify": "^1.14.0",
     "node-sass": "^4.14.1",
     "sass-loader": "^10.0.3"
   }
