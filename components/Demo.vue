@@ -601,7 +601,7 @@ body {
   &__head {
     display: flex;
     text-align: left;
-    margin: 0 0 1rem;
+    margin: 0;
     background: var(--sky);
     color: var(--smoke);
     padding: 1rem;
@@ -635,7 +635,7 @@ body {
     }
     &__claim {
       display: block;
-      margin: 0 0 1rem;
+      margin: 0;
       font-size: 12px;
       font-weight: 400;
       line-height: 1.2;
@@ -935,11 +935,15 @@ body {
       margin-bottom: 1rem;
       text-align: center;
       background-color: var(--smoke);
-      box-shadow: inset 2px 2px 4px rgba(240, 240, 240,0.5), 2px 2px 4px rgba(0,0,0, 0.1);
+      box-shadow: 2px 2px 4px rgba(0,0,0, 0.2);
       align-items: baseline;
       min-height: 175px;
       margin-right: 1rem;
       margin: 1rem;
+
+      @media (max-width: 768px) {
+        max-width: 100%;
+      }
     }
     &__mintitle {
       flex: 1 100%;
