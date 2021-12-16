@@ -504,6 +504,7 @@
 
 :root {
   --sky:    #0F7EE6;
+  --alt:    #E6BE05;
   --smoke:  #f5f5f5;
 }
 
@@ -543,7 +544,7 @@ body {
     line-height: 1;
     align-items: center;
     justify-content: center;
-    background: #FA501E;
+    background: var(--alt);;
 
     &.active {
       .demo__btn__icon {
@@ -847,8 +848,8 @@ body {
     position: absolute;
     top: 100%;
     right: 0;
-    background: var(--sky);
-    color: var(--smoke);
+    background: var(--alt);
+    color: black;
     border-bottom-left-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
     padding: 0.25rem 0.5rem;
@@ -884,11 +885,12 @@ body {
       bottom: 100%;
       left: 0%;
       margin-block: 0.25rem;
+      color: var(--smoke);
     }
     &__label {
       font-family: 'Lato', Helvetica, Arial, sans-serif;
-      background: var(--sky);
-      color: white;
+      background: var(--alt);
+      color: black;
       font-size: 0.55em;
       font-weight: 500;
       line-height: 1;
