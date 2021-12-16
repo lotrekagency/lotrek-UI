@@ -7,18 +7,15 @@
 
     <div class="sider demo__sider">
       <div class="sider__head">
-        <h1 class="sider__head__title">
-          <img src="../static/assets/images/lotrek-ui-logo.svg" alt="Lotrek UI" class="sider__head__icon">
-        </h1>
-        <h2 class="sider__head__claim">A collection of ready-to-use  UI components written in HTML & CSS</h2>
-        <p class="sider__head__text">
-          <a href="https://github.com/lotrekagency/lotrek-UI" target="_blank" class="sider__head__link">
-            <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="githubicon">
-              <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
-            </svg>
-            github.com/lotrekagency/lotrek-UI
-          </a>
-        </p>
+        <figure class="sider__head__figure">
+          <img src="../static/assets/images/lotrek-ui-logo-white.svg" alt="Lotrek UI Brand Icon" class="sider__head__icon">
+        </figure>
+        <div class="sider__head__top">
+          <h1 class="sider__head__posttitle">
+            Lotrek UI
+          </h1>
+          <h2 class="sider__head__claim">A collection of ready-to-use  UI components written in HTML & CSS</h2>
+        </div>
       </div><!--/sider__head-->
 
       <div class="sider__categ">
@@ -114,7 +111,13 @@
 
       <div class="sider__footer">
         <a href="https://raw.githubusercontent.com/lotrekagency/lotrek-UI/main/styles/build/lotrek-ui.css" target="_blank" class="sider__footer__link">
-          Get the CSS
+          <span class="sider__footer__pre">get the</span> 
+          CSS
+        </a>
+        <a href="https://github.com/lotrekagency/lotrek-UI" target="_blank" class="sider__footer__github">
+          <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="githubicon">
+            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+          </svg>
         </a>
       </div>
     </div><!--/sider-->
@@ -124,6 +127,17 @@
         
         <div class="core__categ active" id="ccat-special">
           <div class="core__categ__grid">
+
+            <div class="core__categ__head">
+              <h3 class="core__entry">
+                Blocks categories
+              </h3>
+              <p class="core__entry__text">
+                Here's a brief preview of what each category's purpose is: navigate through each category 
+                by using the sidebar to view each block and its HTML template code.
+              </p>
+            </div>
+
             <div class="core__categ__row">
               <span class="core__categ__mintitle">Hero blocks</span>
               <img src="../static/assets/images/Hero_1 Icon.svg" alt="" class="core__categ__icon">
@@ -499,8 +513,15 @@
 <style lang="scss">
 @import './styles/main.scss';
 
+:root {
+  --sky:    #0F7EE6;
+  --alt:    #E6BE05;
+  --smoke:  #f5f5f5;
+}
+
 body {
-  font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -511,6 +532,7 @@ body {
 </style>
 
 <style scoped lang="scss">
+
 .demo {
   position: absolute;
   top: 0%;
@@ -533,7 +555,7 @@ body {
     line-height: 1;
     align-items: center;
     justify-content: center;
-    background: #FA501E;
+    background: var(--alt);;
 
     &.active {
       .demo__btn__icon {
@@ -547,7 +569,7 @@ body {
     &__icon {
       transition: all ease-in .25s;
       transform: rotate(0);
-      color: var(--white);
+      color: var(--smoke);
     }
   }
 }//demo
@@ -555,16 +577,15 @@ body {
 .sider {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 0;
   top: 0%;
   left: 0%;
-  width: clamp(250px,17.5vw,300px);
-  flex: 0 0 clamp(250px,17.5vw,300px);
-  height: calc(100vh - 2rem);
+  width: clamp(300px,19.5vw,325px);
+  flex: 0 0 clamp(300px,19.5vw,325px);
+  height: 100vh;
+  background: var(--smoke);
   overflow-y: auto;
   z-index: 10;
-  background: var(--white);
-  box-shadow: 2px 2px 4px rgba(0,0,0, 0.1);
   transition: all ease-in .25s;
 
   @media (max-width: 768px) {
@@ -578,16 +599,31 @@ body {
   }
 
   &__head {
+    display: flex;
     text-align: left;
-    margin: 0 0 1rem;
-    border-bottom: 1px solid var(--grey);
+    margin: 0;
+    background: var(--sky);
+    color: var(--smoke);
+    padding: 1rem;
 
+    &__figure {
+      margin: 0 1rem 0 0;
+    }
     &__icon {
       object-fit: contain;
-      width: 100px;
-      height: auto;
+      width: 60px;
+      height: 60px;
       object-position: center;
-      box-shadow: 2px 2px 4px rgba(0,0,0, 0.1);
+    }
+    &__top {
+      display: flex;
+      flex-direction: column;
+    }
+    &__posttitle {
+      font-size: 20px;
+      line-height: 1;
+      margin: 0 0 0.5rem;
+      font-weight: 900;
     }
     &__title {
       font-size: 1.4rem;
@@ -595,15 +631,14 @@ body {
       margin: 0 0 0.5rem;
     }
     &__special {
-      color: #0f7ee6;
+      color: var(--sky);
     }
     &__claim {
       display: block;
-      margin: 0 0 1rem;
-      font-size: 0.9rem;
+      margin: 0;
+      font-size: 12px;
       font-weight: 400;
-      line-height: 1;
-      opacity: 0.8;
+      line-height: 1.2;
     }
     &__text {
       margin: 0 0 1rem;
@@ -614,7 +649,7 @@ body {
     }
     &__link {
       background: var(--black);
-      color: var(--white);
+      color: var(--smoke);
       align-items: center;
       justify-content: flex-start;
       font-size: 0.8rem;
@@ -633,26 +668,82 @@ body {
   }
   &__footer {
     margin-top: auto;
+    display: flex;
 
     &__link {
-      background: #0F7EE6;
-      color: var(--white);
-      border-radius: 0.25rem;
-      padding: 0.25rem 0.5rem;
+      background: var(--sky);
+      color: var(--smoke);
       text-decoration: none;
+      flex: 1;
+      border-radius: 0;
+      padding: 12px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      font-size: 24px;
+      font-weight: 900;
+
+      &:before {
+        content: "";
+        position: absolute;
+        width: 1rem;
+        height: 1rem;
+        background-image: url('../static/assets/images/chevron.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 1;
+        transition: all ease-in .125s;
+        right: 1rem;
+        top: 50%;
+        transform: translateY(-50%) translateX(0);
+      }
+      &:hover {
+        &:before {
+          transform: translateY(-50%) translateX(-4px);
+        }
+      }
+    }
+    &__pre {
+      font-size: 12px;
+      font-weight: 400;
+    }
+    &__github {
+      flex: 1;
+      background: var(--black);
+      padding: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      svg {
+        filter: invert(1);
+        transition: all ease-in .125s;
+        transform-origin: center;
+        transform: scale(1);
+      }
+      &:hover {
+        svg {
+          transform: scale(0.75);
+        }
+      }
     }
   }
   &__categ {
+    padding: 1rem;
+
     &__item {
       text-align: left;
-      margin: 0.5rem 0;
+      margin: 1rem 0;
       transition: all ease-in .125s;
-      border-radius: 0.25rem;
-      box-shadow: inset 2px 2px 4px rgba(240, 240, 240,0.5), 2px 2px 4px rgba(0,0,0, 0.1);
       overflow: hidden;
+      border-right: 1px solid var(--sky);
+      border-bottom: 1px solid var(--sky);
 
       &:hover {
-        box-shadow: inset 1px 1px 2px rgba(240, 240, 240,0.5), 1px 1px 2px rgba(0,0,0, 0.1);
+        
       }
       &.active {
         .sider__categ__item__head {
@@ -705,19 +796,24 @@ body {
         margin-bottom: 0;
       }
       &:before {
-        content: ">";
+        content: "";
         position: absolute;
-        font-size: 0.75rem;
-        line-height: 1;
-        left: 0;
-        top: calc(50% - 1px);
-        transform: translateY(-50%);
+        width: 0.7rem;
+        height: 0.7rem;
+        background-image: url('../static/assets/images/chevron-sky.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 1;
         transition: all ease-in .25s;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%) translateX(0);
       }
       &:hover {
         text-decoration: underline;
         &:before {
-          left: 0.25rem;
+          transform: translateY(-50%) translateX(2px);
         }
       }
     }
@@ -726,6 +822,7 @@ body {
       font-size: 1.2rem;
       line-height: 1;
       user-select: none;
+      color: var(--sky);
     }
   }
 }//sider
@@ -739,6 +836,7 @@ body {
   overflow-y: auto;
   z-index: 1;
   background: #f7f7f7;
+  background: linear-gradient(120deg, #0F7EE6 0%, #0F7EE6 50%, #57A5ED 100%);
 
   &__code {
     text-align: initial;
@@ -762,8 +860,8 @@ body {
     position: absolute;
     top: 100%;
     right: 0;
-    background: #0F7EE6;
-    color: var(--white);
+    background: var(--alt);
+    color: black;
     border-bottom-left-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
     padding: 0.25rem 0.5rem;
@@ -774,9 +872,9 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    border: 1px solid #0F7EE6;
-    color: #0F7EE6;
-    background-color: var(--white);
+    border: 1px solid var(--sky);
+    color: var(--sky);
+    background-color: var(--smoke);
     border-bottom-left-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
     padding: 0.25rem 0.5rem;
@@ -799,11 +897,12 @@ body {
       bottom: 100%;
       left: 0%;
       margin-block: 0.25rem;
+      color: var(--smoke);
     }
     &__label {
-      font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
-      background: #0F7EE6;
-      color: white;
+      font-family: 'Lato', Helvetica, Arial, sans-serif;
+      background: var(--alt);
+      color: black;
       font-size: 0.55em;
       font-weight: 500;
       line-height: 1;
@@ -820,51 +919,69 @@ body {
     }
     &__grid {
       display: flex;
-      flex-direction: column;
-      align-items: stretch;
+      flex-wrap: wrap;
       padding: 2rem;
       max-width: 800px;
       margin: 0 auto;
     }
     &__row {
-      flex: 1 100%;
+      flex: 1;
+      min-width: 180px;
+      max-width: 24%;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-wrap: wrap;
-      padding: 0.5rem;
       margin-bottom: 1rem;
       text-align: center;
-      border-radius: 0.25rem;
-      background-color: var(--white);
-      box-shadow: inset 2px 2px 4px rgba(240, 240, 240,0.5), 2px 2px 4px rgba(0,0,0, 0.1);
+      background-color: var(--smoke);
+      box-shadow: 2px 2px 4px rgba(0,0,0, 0.2);
+      align-items: baseline;
+      min-height: 175px;
+      margin-right: 1rem;
+      margin: 1rem;
 
-      @media (min-width: 769px) {
-        flex-wrap: nowrap;
-        justify-content: flex-start;
+      @media (max-width: 768px) {
+        max-width: 100%;
       }
     }
     &__mintitle {
-      flex: 0 0 200px;
-      max-width: 200px;
-      text-align: center;
-      font-size: 1.2rem;
+      flex: 1 100%;
+      max-width: 100%;
+      text-align: left;
+      font-size: 1rem;
       line-height: 1;
-      margin: 1rem;
-      @media (min-width: 769px) {
-        text-align: left;
-        margin: 0 1rem;
-      }
+      margin: 0 0 1rem;
+      padding: 0.5rem 1rem;
+      font-weight: 700;
+      background: var(--sky);
+      color: var(--smoke);
+      
     }
     &__icon {
       width: 60px;
       height: auto;
       object-fit: contain;
-      margin: 1rem;
+      margin: 0.5rem 1rem;
       box-shadow: 2px 2px 4px rgba(0,0,0, 0.1);
-      @media (min-width: 769px) {
-        margin: 0 1.5rem 0 0;
-      }
+    }
+    &__head {
+      text-align: left;
+    }
+  }
+  &__entry {
+    border-bottom: 1px solid var(--smoke);
+    color: var(--smoke);
+    margin: 0 1rem 1rem;
+    font-size: 22px;
+    line-height: 1.1;
+    padding-bottom: 1rem;
+    display: inline-block;
+
+    &__text {
+      margin: 0 1rem 1rem;
+      color: var(--smoke);
+      max-width: 650px;
     }
   }
 }
