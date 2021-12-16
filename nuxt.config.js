@@ -21,7 +21,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap'
+        href: 'https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap'
       }
     ]
   },
