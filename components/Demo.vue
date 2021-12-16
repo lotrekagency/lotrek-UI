@@ -127,6 +127,17 @@
         
         <div class="core__categ active" id="ccat-special">
           <div class="core__categ__grid">
+
+            <div class="core__categ__head">
+              <h3 class="core__entry">
+                Blocks categories
+              </h3>
+              <p class="core__entry__text">
+                Here's a brief preview of what each category's purpose is: navigate through each category 
+                by using the sidebar to view each block and its HTML template code.
+              </p>
+            </div>
+
             <div class="core__categ__row">
               <span class="core__categ__mintitle">Hero blocks</span>
               <img src="../static/assets/images/Hero_1 Icon.svg" alt="" class="core__categ__icon">
@@ -612,6 +623,7 @@ body {
       font-size: 20px;
       line-height: 1;
       margin: 0 0 0.5rem;
+      font-weight: 900;
     }
     &__title {
       font-size: 1.4rem;
@@ -824,7 +836,7 @@ body {
   overflow-y: auto;
   z-index: 1;
   background: #f7f7f7;
-  background: linear-gradient(135deg, #0F7EE6 0%, #0F7EE6 65%, #57A5ED 100%);
+  background: linear-gradient(120deg, #0F7EE6 0%, #0F7EE6 50%, #57A5ED 100%);
 
   &__code {
     text-align: initial;
@@ -907,51 +919,65 @@ body {
     }
     &__grid {
       display: flex;
-      flex-direction: column;
-      align-items: stretch;
+      flex-wrap: wrap;
       padding: 2rem;
       max-width: 800px;
       margin: 0 auto;
     }
     &__row {
-      flex: 1 100%;
+      flex: 1;
+      min-width: 180px;
+      max-width: 24%;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-wrap: wrap;
-      padding: 0.5rem;
       margin-bottom: 1rem;
       text-align: center;
-      border-radius: 0.25rem;
       background-color: var(--smoke);
       box-shadow: inset 2px 2px 4px rgba(240, 240, 240,0.5), 2px 2px 4px rgba(0,0,0, 0.1);
-
-      @media (min-width: 769px) {
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-      }
+      align-items: baseline;
+      min-height: 175px;
+      margin-right: 1rem;
+      margin: 1rem;
     }
     &__mintitle {
-      flex: 0 0 200px;
-      max-width: 200px;
-      text-align: center;
-      font-size: 1.2rem;
+      flex: 1 100%;
+      max-width: 100%;
+      text-align: left;
+      font-size: 1rem;
       line-height: 1;
-      margin: 1rem;
-      @media (min-width: 769px) {
-        text-align: left;
-        margin: 0 1rem;
-      }
+      margin: 0 0 1rem;
+      padding: 0.5rem 1rem;
+      font-weight: 700;
+      background: var(--sky);
+      color: var(--smoke);
+      
     }
     &__icon {
       width: 60px;
       height: auto;
       object-fit: contain;
-      margin: 1rem;
+      margin: 0.5rem 1rem;
       box-shadow: 2px 2px 4px rgba(0,0,0, 0.1);
-      @media (min-width: 769px) {
-        margin: 0 1.5rem 0 0;
-      }
+    }
+    &__head {
+      text-align: left;
+    }
+  }
+  &__entry {
+    border-bottom: 1px solid var(--smoke);
+    color: var(--smoke);
+    margin: 0 1rem 1rem;
+    font-size: 22px;
+    line-height: 1.1;
+    padding-bottom: 1rem;
+    display: inline-block;
+
+    &__text {
+      margin: 0 1rem 1rem;
+      color: var(--smoke);
+      max-width: 650px;
     }
   }
 }
