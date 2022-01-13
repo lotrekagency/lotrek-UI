@@ -1,6 +1,6 @@
 {
   "name": "lotrek-ui-css",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "scripts": {
     "css": "rollup -c rollup.config.js"
