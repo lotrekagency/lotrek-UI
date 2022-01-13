@@ -836,7 +836,7 @@ body {
   overflow-y: auto;
   z-index: 1;
   background: #f7f7f7;
-  background: linear-gradient(120deg, #0F7EE6 0%, #0F7EE6 50%, #57A5ED 100%);
+  background: linear-gradient(120deg,#0f7ee6,#0f7ee6 50%,#3c9bf0);
 
   &__code {
     text-align: initial;
