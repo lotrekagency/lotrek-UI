@@ -49,7 +49,11 @@ export default {
       '~/components',
       '~/components/hero',
       '~/components/features',
-      '~/components/blocks'
+      '~/components/content',
+      '~/components/form',
+      '~/components/marketing',
+      '~/components/navigation',
+      '~/components/slider'
     ] 
   },
 

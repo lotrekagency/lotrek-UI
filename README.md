@@ -87,4 +87,5 @@ lotrekagency/lotrek-UI is licensed under the MIT License
 
 ### TODO
 • Better demo page
+
 • Better readme
