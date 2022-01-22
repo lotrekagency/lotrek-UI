@@ -36,14 +36,24 @@
       justify-content: center;
       text-align: center;
       
-      display: none;
+      pointer-events: none;
+      opacity: 0;
 
       @media (min-width: 769px) {
         height: calc(100% - 2rem);
       }
 
       &.active {
-        display: flex;
+        pointer-events: initial;
+        opacity: 1;
+      }
+      &--animation {
+        transform-origin: bottom;
+        transform: translateY(40px);
+        &.active {
+          transition: all ease .25s;
+          transform: translateY(0);
+        }
       }
     }
   }

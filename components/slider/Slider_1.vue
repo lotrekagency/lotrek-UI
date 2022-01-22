@@ -2,7 +2,7 @@
   <div class="slider" id="slider-1">
     <div class="slider__core">
 
-      <div class="slider__core__slide active" data-slide="0">
+      <div class="slider__core__slide slider__core__slide--animation active" data-slide="0">
         <h1>
           Slide n.1
         </h1>
@@ -13,7 +13,7 @@
         <a href="#" class="button">Button</a>
       </div><!--/slide - 0 -->
 
-      <div class="slider__core__slide" data-slide="1">
+      <div class="slider__core__slide slider__core__slide--animation" data-slide="1">
         <h1>
           Slide n.2
         </h1>
@@ -23,7 +23,7 @@
         <a href="#" class="button">Button</a>
       </div><!--/slide - 1 -->
 
-      <div class="slider__core__slide" data-slide="2">
+      <div class="slider__core__slide slider__core__slide--animation" data-slide="2">
         <h1>
           Slide n.3
         </h1>
