@@ -52,9 +52,9 @@ Now you should be able to view the demo page on http://localhost:3000/
 
 If you wish to build for production, run:
 
-`yarn build`
+`yarn generate`
 
-/dist/ will have the production files and assets.
+/docs/ will have the production files and assets.
 
 ### lotrek-ui.css
 The CSS bundle file (lotrek-ui.css) to make the raw HTML blocks work is located at the /styles/build/ path.
