@@ -204,6 +204,11 @@
         pointer-events: none;
         transform: translateY(0.5rem);
       }
+      &:hover {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: initial;
+      }
       &__link {
         margin-bottom: 0.5rem;
         &:last-child {
