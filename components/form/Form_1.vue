@@ -3,9 +3,9 @@
     <div class="form__inner">
 
       <div class="form__content">
-        <span>
+        <h4>
           Lorem, ipsum.
-        </span>
+        </h4>
         <h1>
           Lorem ipsum dolor sit.
         </h1>

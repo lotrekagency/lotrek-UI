@@ -1127,11 +1127,13 @@ export default {
               'break-lines': 80,
               'indent': 2,
               'remove-initial-line-feed': true,
-              'tabs-to-spaces': 2,
-              'spaces-to-tabs': 2
+              'tabs-to-spaces': 1,
+              'spaces-to-tabs': 1
             });
             nw = Prism.plugins.NormalizeWhitespace;
             
+            console.log(ghostElement)
+
             element.parentElement.querySelector(".core__code pre code").innerText = ghostElement;
             element.parentElement.querySelector(".core__code").classList.add("active");
 

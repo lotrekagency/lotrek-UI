@@ -2,9 +2,9 @@
   <div class="content">
     <div class="content__inner">
       <div class="content__content">
-        <span>
+        <h4>
           Lorem, ipsum.
-        </span>
+        </h4>
         <h1>
           Lorem ipsum dolor sit.
         </h1>

@@ -7,14 +7,14 @@
       </a><!--/nav__logo-->
 
       <div class="nav__hmb">
-        <span class="nav__hmb__line"></span>
-        <span class="nav__hmb__line"></span>
-        <span class="nav__hmb__line"></span>
+        <div class="nav__hmb__line"></div>
+        <div class="nav__hmb__line"></div>
+        <div class="nav__hmb__line"></div>
       </div><!--/nav__hmb-->
 
       <nav class="nav__core">
         <div class="nav__core__link nav__core__link--dropdown">
-          <span class="nav__core__link__label">Dropdown 1</span>
+          <div class="nav__core__link__label">Dropdown 1</div>
 
           <div class="nav__core__dropdown">
             <a href="" class="nav__core__dropdown__link">Dropdown link 1</a>

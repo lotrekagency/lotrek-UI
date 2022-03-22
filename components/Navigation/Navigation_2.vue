@@ -14,14 +14,14 @@
       </a><!--/nav__logo-->
 
       <div class="nav__hmb">
-        <span class="nav__hmb__line"></span>
-        <span class="nav__hmb__line"></span>
-        <span class="nav__hmb__line"></span>
+        <div class="nav__hmb__line"></div>
+        <div class="nav__hmb__line"></div>
+        <div class="nav__hmb__line"></div>
       </div><!--/nav__hmb-->
 
       <nav class="nav__core">
-        <span class="nav__core__link nav__core__link--sub" data-presub="0">Sublevel 1</span>
-        <span class="nav__core__link nav__core__link--sub" data-presub="1">Sublevel 2</span>
+        <div class="nav__core__link nav__core__link--sub" data-presub="0">Sublevel 1</div>
+        <div class="nav__core__link nav__core__link--sub" data-presub="1">Sublevel 2</div>
         <a href="" class="nav__core__link">Link 3</a>
         <a href="" class="nav__core__link">Link 4</a>
       </nav><!--/nav__core-->
@@ -29,9 +29,9 @@
 
     <div class="nav__sub">
 
-      <span class="nav__sub__exit">
+      <div class="nav__sub__exit">
         Back
-      </span>
+      </div>
 
       <div class="nav__sub__item" data-sub="0">
         <div class="nav__sub__box">
