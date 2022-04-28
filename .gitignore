@@ -91,3 +91,5 @@ sw.*
 
 package-lock.json
 styles/package-lock.json
+yarn.lock
+styles/yarn.lock
