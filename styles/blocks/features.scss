@@ -12,7 +12,7 @@
       text-align: left;
       align-self: flex-start;
 
-      @media (min-width: 769px) {
+      @media (min-width: 768px) {
         grid-column: 1/5;
       }
     }
@@ -41,7 +41,7 @@
     align-items: baseline;
     justify-content: center;
 
-    @media (min-width: 769px) {
+    @media (min-width: 768px) {
       grid-column: 6/13;
     }
   }

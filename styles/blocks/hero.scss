@@ -13,13 +13,13 @@
   &__content {
     text-align: left;
 
-    @media (min-width: 769px) {
+    @media (min-width: 768px) {
       grid-column: 1/7;
     }
     &--full {
       text-align: center;
       
-      @media (min-width: 769px) {
+      @media (min-width: 768px) {
         grid-column: span 12;
       }
     }
@@ -37,7 +37,7 @@
   &__fig {
     overflow: hidden;
 
-    @media (min-width: 769px) {
+    @media (min-width: 768px) {
       grid-column: 7/13;
     }
   }

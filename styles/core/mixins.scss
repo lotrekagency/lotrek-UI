@@ -18,11 +18,11 @@
     grid-column: col-start / span 4;
     position: relative;
     z-index: 1;
-    @media (min-width: 769px) {
+    @media (min-width: 768px) {
       grid-column: col-start / span 12;
     }
   }
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     grid-template-columns: repeat(12, [col-start] minmax(0, 1fr));
   }
 }

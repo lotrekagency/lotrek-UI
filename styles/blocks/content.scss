@@ -27,7 +27,7 @@
     text-align: left;
     align-self: stretch;
 
-    @media (min-width: 769px) {
+    @media (min-width: 768px) {
       grid-column: span 4;
     }
     &__background {
