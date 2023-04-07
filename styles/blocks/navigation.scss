@@ -16,7 +16,7 @@
     overflow: hidden;
     text-align: left;
 
-    @media (min-width: 768px) {
+    @media (min-width: 767px) {
 
     }
 
@@ -37,7 +37,7 @@
     height: 100%;
     border: 1px solid var(--grey);
 
-    @media (min-width: 768px) {
+    @media (min-width: 767px) {
       display: none;
     }
 
@@ -80,7 +80,7 @@
     opacity: 0;
     transition: all ease-in .25s;
 
-    @media (min-width: 768px) {
+    @media (min-width: 767px) {
       pointer-events: initial;
       opacity: 1;
       position: static;
@@ -106,20 +106,20 @@
       transition: none;
       margin: 1rem 0 0;
 
-      @media (min-width: 768px) {
+      @media (min-width: 767px) {
         opacity: 1;
         margin: 0 1rem 0 0;
       }
 
       &:first-child {
         margin-top: 2rem;
-        @media (min-width: 768px) {
+        @media (min-width: 767px) {
           margin-top: 0;
         }
       }
       &:last-child {
         margin-bottom: 2rem;
-        @media (min-width: 768px) {
+        @media (min-width: 767px) {
           margin-bottom: 0;
           margin-right: 0;
         }
@@ -133,7 +133,7 @@
           margin-bottom: 1rem;
           text-align: center;
         }
-        @media (min-width: 768px) {
+        @media (min-width: 767px) {
           margin-right: 2rem;
           &:after {
             content: "";
@@ -159,7 +159,7 @@
         text-decoration: underline;
         position: relative;
 
-        @media (min-width: 768px) {
+        @media (min-width: 767px) {
           opacity: 1;
           margin-right: 2rem;
         }
@@ -196,7 +196,7 @@
       z-index: 1;
       transition: all ease-in .25s;
 
-      @media (min-width: 768px) {
+      @media (min-width: 767px) {
         position: absolute;
         top: 100%;
         left: 0%;
@@ -230,7 +230,7 @@
     pointer-events: none;
     flex-direction: column;
 
-    @media (min-width: 768px) {
+    @media (min-width: 767px) {
       position: static;
     }
 
@@ -253,7 +253,7 @@
       border: 1px solid var(--black);
       width: max-content;
 
-      @media (min-width: 768px) {
+      @media (min-width: 767px) {
         display: none;
       }
     }
